@@ -1,0 +1,39 @@
+* Do search for web-site, http, URL etc given topics in lecture.
+
+-> Web Site : - Web Site is collection Web Pages and related content that is identified by a common domain name and published on
+                at least one web browser. 
+              - Websites are typically dedicated to a Particular topic like (.edu - for Education, .ind - for india .com -  for commerce,
+                .org - for Organization, etc...)
+
+              There Are Two Types of Websites : - Static Websites
+                                                - Dynamic Websites
+
+                - Static Websites  : - Static Websites are non interactive websites it doesn't respond to users. 
+                                     - This web sites are Commonly created by using only HTML or CSS.
+                                     - this type of websites generally Show the same content to all the user.
+                                     - Classic Websites or Brochure Websites are the example of Static websites. 
+            
+                - Dynamic Websites : - Dynamic Websites are interactive websites it response to the users by the inputs 
+                                       or it also customize or change itself frequently or automatically.
+                                     - A site can display the current State of dialogue between users,monitor changing situation or provide
+                                       personalized information to user as per the requirements of users.
+                                     - E-comers , ticket booking , Payment websites are example of Dynamic Websites.
+
+                                                    ---------------------------
+
+-> HTTP     : - HTTP stands for "HyperText Transfer Protocol".
+              - it is an application layer protocol in the internet protocol suite model for distributed, collaborative, hypermedia 
+                information system.
+              - http is used to transport url information between user or server.
+              - it shows that websites we are using is secured or not.
+                                                    
+                                                    ---------------------------
+
+-> URL      : - URL stands for Uniform Resource Locator. 
+              - it shows the web addresses of websites.
+              - URLs occurs most commonly to refer web pages but it also used for File transfer(FTP),emails.
+              - ( https://en.wikipedia.org/wiki/URL ) this is the example of URl.
+              - in Given URL "https" is Protocol,"en" is sub domain,"wikipedia" is root domain, "org" is top domain. 
+                                     
+                                                    ---------------------------  
+                                     
