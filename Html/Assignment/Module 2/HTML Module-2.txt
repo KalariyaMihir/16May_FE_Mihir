@@ -29,5 +29,6 @@
              - SEO targets the unpaid traffic rather than paid traffic.
              - Unpaid traffic generates from different kinds of searches like images, videos, or academic searches.
              - SEO considers how search engines work the computer-programmed algorithms that dictate search engine behavior,
-               what people search for, the actual search terms or keywords typed into search engines and which search engines.  
+               what people search for, the actual search terms or keywords typed into search engines and which search engines.
+               
                                                             ---------------------------
