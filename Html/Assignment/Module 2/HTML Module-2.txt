@@ -1,0 +1,33 @@
+* Do search for domain, hosting, SEO etc.
+
+-> Domain :  - Domain name identify resources such as computers, network, and services with a text based label that is easier to memories 
+              than a numerical address used in IP (Internet protocol).
+             - Domain name are formed by the rules and procedures of the DNS(Domain Name System).
+             - Any name registered in DNS ia a domain name. 
+             - Domain names are often used to identify the services provided through internet such as websites, email and more.
+             - Purchasing the process of Domain and put Your Content on that domain is called HOSTING, And the person who does that process 
+              Called HOST.
+             - Domain name is Components of URL used to access web sites.
+             - Eg. www.google.com
+
+                     |-> www is Sub domain.
+                     |-> google is root domain \ host name.
+                     |-> com is top domain.
+
+                                                            ---------------------------
+
+-> Hosting : - Web hosting is the service that allows you to publish your websites on the internet.
+             - When you sign up for hosting you rent a physical server where you can store all the files or 
+               necessary data for your website to work properly.
+             - Purchasing the process of Domain and put Your Content on that domain is called HOSTING.
+             - The person who does  the hosting is called Host.
+
+                                                            ---------------------------
+
+-> SEO     : - SEO stands for Search Engine Optimization.
+             - SEO is the process of improving the Quality or Quantity of website traffic to a websites or a web page .
+             - SEO targets the unpaid traffic rather than paid traffic.
+             - Unpaid traffic generates from different kinds of searches like images, videos, or academic searches.
+             - SEO considers how search engines work the computer-programmed algorithms that dictate search engine behavior,
+               what people search for, the actual search terms or keywords typed into search engines and which search engines.  
+                                                            ---------------------------
