@@ -1,0 +1,94 @@
+<!-- Practice of row span -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Row Span</title>
+    <style>
+    
+    </style>
+</head>
+
+<body>
+    <center>
+
+        <table border="1px">
+
+            <caption><b><code><big>Voting Eligibility</big></code></b></caption>
+            
+            <tr>
+                <th>No.</th>
+                <th colspan="2">Name</th>
+                
+                <th>Age</th>
+                <th>Eligibility</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>First Name </th>
+                <th>Last name</th>
+                <th ></th>
+                <th></th>
+            </tr>
+            
+            <tr>
+                <td>1</td>
+                <td>Mihir</td>
+                <td></td>
+                <td>22</td>
+                <td rowspan="2">Yes</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Mrinal</td>
+                <td></td>
+                <td>32</td>
+                <!-- <td>Yes</td> -->
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Nikunj</td>
+                <td></td>
+                <td>17</td>
+                <td>No</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Hitesh</td>
+                <td></td>
+                <td>21</td>
+                <td>Yes</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Kishan</td>
+                <td></td>
+                <td>13</td>
+                <td rowspan="2">No</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>Milan</td>
+                <td></td>
+                <td>17</td>
+                <!-- <td>No</td> -->
+            </tr>
+
+            <tr>
+                <td style="border: 0px;"></td>
+                <td style="border: 0px;"></td>
+                <td style="border: 0px;"></td>
+                <td colspan="2">Total 6 </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>

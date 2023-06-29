@@ -1,0 +1,69 @@
+<!-- Practice of Row span -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rowspan 2</title>
+    <style>
+        table,td,th
+        {
+            border: 3px solid rebeccapurple;
+            /* border-collapse remove the space between Cells */
+            border-collapse: collapse; 
+        }
+        
+    </style>
+</head>
+<body>
+    <table cellpadding="1px" width="300px">
+        <caption>Employee Data</caption>
+        
+        <!-- Head of Table  -->
+        <thead>
+           
+            <tr>
+                <th rowspan="2">No.</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Salary</th>
+            </tr>
+            <tr>
+                <th>Joining</th>
+                <th>Increment</th>
+            </tr>
+        </thead>
+
+        <!-- First row of table data -->
+        <tr>
+            <td>1</td>
+            <td>Mihir</td>
+            <td rowspan="2">30000</td>
+            <td>45000</td>
+        </tr>
+
+        <!-- second row of table data -->
+        <tr>
+            <td>2</td>
+            <td>Hitesh</td>
+            <!-- <td>30000</td> -->
+            <td>40000</td>
+        </tr>
+
+        <!-- third row of table data -->
+        <tr>
+            <td>3</td>
+            <td>Raj</td>
+            <td rowspan="2">25000</td>
+            <td>35000</td>
+        </tr>
+
+        <!-- fourth row of table data -->
+        <tr>
+            <td>4</td>
+            <td>Bhagirath</td>
+            <!-- <td>25000</td> -->
+            <td>37000</td>
+        </tr>
+    </table>
+</body>
+</html>
