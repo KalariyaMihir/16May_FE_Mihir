@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table 3</title>
+    <style>
+        table,td,th{border: 1px solid;}
+    </style>
 </head>
 <body>
     <center>
 
-        <table border="1px" cellpadding="5px" width="500px">
+        <table cellpadding="5px" width="500px">
             <caption>Seminar Table</caption>
             
             <thead>
@@ -45,25 +48,32 @@
         </tr>
         
         <!-- ---------- -->
-        
-        <tr>
-            <td rowspan="3">Tuesday</td>
-            <td>8:00 a.m.</td>
-            <td>11:00 a.m.</td>
-            <td rowspan="1.5">XPath</td>
-        </tr>
+        <tbody>
 
-        <tr>
-            <td>11:00 a.m.</td>
-            <td>2:00 p.m.</td>
-            <td rowspan="1.5">XSL Transformations</td>
-        </tr>
-        
-        <tr>
-            <td>2:00 p.m.</td>
-            <td>5:00 p.m.</td>
-        </tr>
-        
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00 a.m.</td>
+                <td>11:00 a.m.</td>
+
+                <td rowspan="3">
+                    <table cellpadding="10">
+                        <tr><td>XPath</td></tr>
+                        <tr><td>XSL Transformations</td></tr>
+                    </table></td>
+            </tr>
+            
+            <tr>
+                <td>11:00 a.m.</td>
+                <td>2:00 p.m.</td>
+                
+            </tr>
+            
+            <tr>
+                <td>2:00 p.m.</td>
+                <td>5:00 p.m.</td>
+            </tr>
+        </tbody>
+            
         <!-- ---------- -->
 
         <tr>
