@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 3</title>
+</head>
+<body>
+    <form action="https://www.tops-int.com/" method="get">
+
+        <label for="fn">First Name</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fn" required maxlength="15">*<br><br>
+
+        <label for="ln">Last Name</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="ln" required maxlength="20">* <br><br>
+
+        <label for="Ftn">Father Name</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Ftn" required maxlength="15">*<br><br>
+
+        <label for="dt">Date of Birth</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" required name="dt">*<br><br>
+
+        <label for="tel">Tel</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" required maxlength="10" minlength="10" pattern="[0-9]{10}">*<br><br>
+
+        High School <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="sn">Name</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="sn" required>*<br><br>
+
+        Permanent <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<label for="add">Address</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required maxlength="70">*<br><br>
+
+        <label for="yl">Your Level</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="yl" id="" required>
+            <option value="1st Year">1st Year</option>
+            <option value="2st Year">2nd Year</option>
+            <option value="3rd Year">3rd Year</option>
+        </select><br><br>
+
+        <label for="Email">Email</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" required name="Email">*<br><br>
+        
+        Degree
+        <label for="ch">Program</label>
+        &nbsp;&nbsp;&nbsp;<select name="" id="">
+            <option value="BS in Pre-Med Physics">BS in Pre-Med Physics</option>
+            <option value="Diploma CE">Diploma CE</option>
+            <option value="BCA">BCA</option>
+        </select><br><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Register">
+
+    </form>
+</body>
+</html>

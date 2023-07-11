@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <form action="https://www.tops-int.com/" method="get">
+        <label for="nm" >Name :</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="nm" required placeholder="Name"><br><br>
+
+        <label for="Pass">Password : </label>
+        <input type="password" required name="pass" pattern="[0-9,_,@,A-z]" maxlength="8" minlength="6" placeholder="Password"><br><br>
+
+        <label for="gn">Gender </label>
+        &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gn" required checked>Male
+        <input type="radio" name="gn" required>Female
+        <input type="radio" name="gn" required>Other <br><br>
+
+        <label for="em">Email : </label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" placeholder="Email" required><br><br>
+
+        <label for="ph">Phone No</label>
+        &nbsp;&nbsp;<select name="ph">
+            <option value="+91">+91</option>
+            <option value="+92">+92</option>
+            <option value="+1">+1</option>
+            <option value="+5">+5</option>
+            <option value="+7">+7</option>
+        </select>
+        <input type="tel" placeholder="Phone No" pattern="[0-9]{10}" minlength="10" maxlength="10" required>
+    
+        <br><br><input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
