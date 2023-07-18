@@ -1,0 +1,81 @@
+<!-- Sign Up page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <style>
+
+        fieldset
+        {
+            background-image: url('https://www.hdwallpapers.in/download/horizon_dark_night_sky-HD.jpg');
+            background-size: 100% 100%;
+            border: 3px solid White;
+            border-radius: 9px;
+            margin: auto ; 
+        }
+
+        body
+        {
+            background-image: url('https://www.hdwallpapers.in/download/horizon_dark_night_sky-HD.jpg');
+            height: 729px;
+            background-size: 100% 100%;
+            backdrop-filter: blur(10px);
+        }
+
+        label
+        {
+            color: white;
+        }
+
+        input
+        {
+            font-family: monospace; background: transparent; color: white;
+            outline: none;
+            border: none;
+            border-bottom: 2px solid white;
+            width: 200px;
+        }
+
+        form
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <br><br><br><br>
+    <fieldset style="width: 330px;"> 
+
+        <form action="../Sign up/Log in.html">
+
+            <h2 style="margin-left: 38%; color: whitesmoke;">Sign UP </h2>
+            
+            <label for="Full Name" style="margin-left: 39%;">Full Name</label><br>
+            <input type="text" name="Full Name" placeholder="Enter Your Full Name" required style="margin-left: 20%;"><br><br><br>
+            
+            <label for="User Name" style="margin-left: 38%;">User Name</label><br>
+            <input type="text" name="User Name" placeholder="Create User Name" required pattern="[A-z,_,0-9]" minlength="8" maxlength="25" style="margin-left: 20%;"><br><br><br>
+            
+            <label for="Email" style="margin-left: 43%;">Email</label><br>
+            <input type="email" name="Email" placeholder="Enter Email id" required style="margin-left: 20%;"><br><br><br>
+            
+            <label for="Pass" style="margin-left: 39%;">Password</label><br>
+            <input type="password" name="Pass" placeholder="Create Password" required style="margin-left: 20%;"><br><br><br>
+            
+            <label for="Confirm Password" style="margin-left: 30%;">Confirm Password</label><br>
+            <input type="password" name="Confirm Password" placeholder="Re-Enter Your Password" required style="margin-left: 20%;"><br><br>
+            
+            <input type="submit" value="Sign UP" style="height: 25px; width: 150px; background-color:crimson; color: black; margin-left: 27%; border-radius: 13px; border: none;"><br>
+            
+            <h5 style="margin-left: 19%; color: white;"  >Already have an account? <a href="../Sign up/Log in.html" style="color: crimson;">Login</a></h5>
+        </form>
+
+    </fieldset>
+    
+</body>
+</html>
