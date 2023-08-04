@@ -1,0 +1,63 @@
+<!-- Practice of Float Html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        .parent{
+            width: auto;
+            height: auto;
+            border: 1px solid black;
+            background-color: black;
+        }
+
+        .Child{
+            height: 150px;
+            /* width: 19.89%; */
+            width: 50%;
+            background-color: blueviolet;
+            border: 1px solid white;
+            float: left;
+        }
+
+        .c2{
+            float: right;
+            clear: left;
+        }
+
+        .c3{
+            float: left;
+            clear: right;
+        }
+
+        .c4{
+            float: right;
+            clear: left;
+        }
+
+        .c5{
+            float: left;
+            clear: right;
+        }
+
+        .c6{
+
+            clear: both;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="Child c1">Child 1</div>
+        <div class="Child c2">Child 2</div>
+        <div class="Child c3">Child 3</div>
+        <div class="Child c4">Child 4</div>
+        <div class="Child c5">Child 5</div>
+        <div class="c6"></div>
+    </div>
+</body>
+</html>
