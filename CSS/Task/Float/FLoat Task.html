@@ -1,0 +1,560 @@
+<!-- Task to create wordlayout usinmg float  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+
+        .hed {
+
+            height: 50px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 1px solid;
+        }
+
+        .hed-child {
+            float: right;
+            margin-top: 15px;
+            margin-right: 100px;
+        }
+
+        .hed span {
+            border: 2px solid white;
+            color: white;
+            background-color: gray;
+            padding: 10px;
+
+        }
+
+        .search{
+            /* margin-top: 30px; */
+            margin-left: 63%;
+        }
+
+        .search input{
+            border: none;
+            margin-top: 25px;
+            font-size: 18px;
+            background-color: white     ;
+
+        }
+
+        .press h3 {
+            padding: 20px;
+            border: 1px black solid;
+            background-color: blue;
+            width: fit-content;
+            color: white;
+            margin-top: 20px;
+        }
+
+        /* -----------------------------------------*/
+        /* div {
+            border: 1px solid black;
+        } */
+
+        table {
+            /* display: inline; */
+            margin-left: 60%;
+            height: 50px;
+        }
+
+        /* -----------------------------------------*/
+
+        .cl1 {
+            height: auto;
+            width: 60%;
+            float: left;
+        }
+
+        .head {
+            margin-left: 120px;
+        }
+
+        .image {
+            height: 170px;
+            width: 140px;
+            float: left;
+            margin-left: 120px;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        button {
+            height: 30px;
+            width: 100%;
+            border-radius: 0px;
+            background-color: rgb(0, 128, 179);
+            color: white;
+            font-weight: bold;
+        }
+
+        .text {
+            height: auto;
+            width: 69%;
+            float: right;
+        }
+
+        p {
+            height: auto;
+            width: auto;
+        }
+
+        /* -----------------------------------------*/
+
+        .cl1_2 {
+            float: right;
+            width: 20%;
+            height: 300px;
+            margin-right: 180px;
+            margin-top: 40px;
+        }
+        
+        li {
+            text-align: center;
+            width: 200px;
+            line-height: 35px;
+        }
+
+        /* -----------------------------------------*/
+
+        .four_image {
+            height: 400px;
+            width: 400px;
+            float: right;
+
+            margin-right: 120px;
+        }
+
+        .float_left {
+            height: 35%;
+            width: 35%;
+            float: left;
+            margin: 9% 1% 1% 9%;
+        }
+
+        .image_lb2 {
+            height: 100%;
+            width: 100%;
+        }
+
+        /* -----------------------------------------*/
+
+        .t_image {
+            float: right;
+            width: 30%;
+            height: 500px;
+            margin-right: 100px;
+        }
+
+        .image_12 {
+            height: 22%;
+            width: 22%;
+            float: left;
+            margin: 1.5% 1.5% 1.5% 7.5%;
+        }
+
+        /* -----------------------------------------*/
+
+        .ad {
+            width: 20%;
+            float: right;
+            margin-right: 165px;
+            margin-top: 23px;
+            padding: 5px;
+        }
+
+        .p1{
+            margin-bottom: 7px;
+        }
+
+        .p1,
+        .p2 {
+            width: 100%;
+            height: 150px;
+        }
+
+        /* -------------------------------------- */
+
+        .footer {
+            height: 200px;
+            width: 100%;
+            clear: both;
+            background-color: rgb(66, 66, 66);
+            color: white;
+
+        }
+
+        .right {
+            line-height: 200px;
+            float: right;
+            margin-right: 180px;
+            background-color:rgb(66, 66, 66) ;
+
+            
+        }
+
+        .left {
+            line-height: 200px;
+            float: left;
+            margin-left: 180px;
+            background-color:rgb(66, 66, 66) ;
+        }
+
+        a {
+            color: rgb(0, 191, 255);
+        }
+
+        /* -------------------------------------------------------------------------------------------------------------------- */
+        /* -------------------------------------------------------------------------------------------------------------------- */
+
+        .first {
+            float: left;
+            clear: right;
+            width: 100%;
+        }
+
+        .Second {
+            float: left;
+            clear: right;
+            width: 100%;
+
+        }
+
+        .Third {
+            float: left;
+            clear: right;
+            width: 100%;
+
+        }
+
+        .Fourth {
+            float: left;
+            clear: right;
+            width: 100%;
+
+        }
+
+        * {
+            background-color: rgb(241, 241, 230);
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hed">
+        <span style="   border: 1px solid;   background-color: #0080B3;  padding: 10px;
+         float: left; margin: 20px 0px 0px 25px; color: white;">
+            <h3 style="background-color: #0080B3;">PRESSREADER</h3>
+        </span>
+        <div class="hed-child"> <span>Home</span><span>About Us</span><span>Activites</span><span>Contact Us</span>
+        </div>
+    </div>
+    <span class="search"><input type="text" placeholder=" go end search " > <i class="fa-solid fa-magnifying-glass"></i></span>
+    
+    <br>
+    <br>
+    <!-- first portion -->
+    <!-- First Content start -->
+    <div class="First">
+
+        <div class="cl1">
+            <h3 class="head">Premium wordpress Web Blog</h3>
+            <hr class="head">
+            <h4 class="head">On 07 - Aug - 2023, <span><a href="#">Tuesday</a> by <a href="#">Dream Template</a></span>
+            </h4>
+            <div class="image">
+
+                <img src="https://images.unsplash.com/photo-1565301660306-29e08751cc53?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                    alt="natural image">
+                <button>12 Comments</button>
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Dignissimos possimus in hic perspiciatis ducimus quidem? Libero, suscipit maiores?
+                    Enim accusantium labore nobis possimus inventore distinctio consectetur illo quasi! Ipsum, vero
+                    magni sequi, soluta laborum ratione magnam consequatur veniam temporibus debitis ipsa eos, nostrum
+                    ea repellendus officia. Velit neque aliquam natus? Enim perspiciatis quis ut nihil? In error dolorem
+                    saepe velit atque quis labore. Dolorem eaque consequatur, quidem minima debitis reprehenderit.
+                    Deserunt maxime eum quod veritatis, quas, saepe
+                    accusantium, voluptatum asperiores unde dicta quam assumenda minus nostrum mollitia cum repellendus
+                    consequatur voluptate placeat
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit fugit earum iste soluta expedita .
+                    <br> <br>
+                    <span><a href="#" style="margin-left: 30px;">Leave Comment</a></span>
+                </p>
+            </div>
+        </div>
+
+        <!-- First Content finished -->
+        <!-- --------------------------------------- -->
+
+        <!-- first label -->
+        <div class="cl1_2">
+            <ul type="squares">
+                <li>Documentation</li>
+                <hr class="list">
+                <br>
+                <li>DashBoard</li>
+                <hr class="list">
+                <br>
+                <li>General</li>
+                <hr class="list">
+                <br>
+                <li>Photography</li>
+                <hr class="list"><br>
+            </ul>
+        </div>
+        <!-- <br><br> -->
+        <!-- first label end -->
+        <!-- First portion end  -->
+    </div>
+
+    <!-- -------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- Second Portion -->
+    <!-- Second Content start -->
+    <div class="Second" style="margin-top: 20px;">
+
+        <div class="cl1" style="margin-top: 12px;">
+            <h3 class="head">The Hidden art of WP Premium Design</h3>
+            <hr class="head">
+            <h4 class="head">On 07 - Aug - 2023, <span><a href="#">Tuesday</a> by <a href="#">Dream Template</a></span>
+            </h4>
+            <div class="image">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK0NL1I_vyMuErU5linKzlh1PQsTx-l0KC4A&usqp=CAU"
+                    alt="building image">
+                <button>7 Comments</button>
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Facere quam, tempora ut magnam nostrum itaque accusamus! Voluptatem ad similique
+                    numquam sunt non adipisci, cupiditate deleniti accusamus aliquam eius? Laudantium molestias, ab
+                    ratione aspernatur itaque doloremque. Consequatur eligendi perferendis laudantium veniam, ea libero
+                    aspernatur deleniti odit nostrum, suscipit accusantium ad aperiam ipsum deserunt labore laboriosam
+                    exercitationem impedit fuga voluptates illo velit obcaecati repudiandae! Explicabo minima tempore
+                    impedit repudiandae nihil possimus animi! Deserunt maxime eum quod veritatis, quas,
+                    saepe
+                    accusantium, voluptatum asperiores unde dicta quam assumenda minus nostrum mollitia cum repellendus
+                    consequatur voluptate placeat
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit fugit earum iste soluta expedita .
+                    <br> <br>
+                    <span><a href="#" style="margin-left: 30px;">Leave Comment</a></span>
+                </p>
+            </div>
+        </div>
+        <!-- Second content end -->
+
+        <!-- Second label start -->
+        <div class="four_image">
+
+            <div class="float_left">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP6-MfoJ0MLH3ZH7oIyNvP_PfLRoYI-ZgPeQ&usqp=CAU"
+                    alt="image 1" class="image_lb2">
+            </div>
+
+            <div class="float_left">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkTQ8DFOgujidIRil33r2QnSZ2Y_ZHahrUlw&usqp=CAU"
+                    alt="image 2" class="image_lb2">
+            </div>
+
+            <div class="float_left">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlCeVhPcF0B061dWx6Y2p6ZshztnAoVQI59g&usqp=CAU"
+                    alt="image 3" class="image_lb2">
+            </div>
+
+            <div class="float_left">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu_fpPmbK-bebEeX036y7frmW06amtCkG1ew&usqp=CAU"
+                    alt="image 4" class="image_lb2">
+            </div>
+        </div>
+
+    </div>
+    <!-- second label end -->
+
+    <!-- -------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- Third Portion -->
+    <!-- Third content start -->
+
+    <div class="Third" style="margin-top: 20px; margin-bottom: 20px;">
+
+        <div class="cl1" style="margin-top: 62px;">
+            <h3 class="head">Showcase of Great Web App Interface</h3>
+            <hr class="head">
+            <h4 class="head">On 07 - Aug - 2023, <span><a href="#">Tuesday</a> by <a href="#">Dream Template</a></span>
+            </h4>
+            <div class="image">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCRdEfsIddrA7KFpevgaTpDkmEbiKNlks0Xw&usqp=CAU"
+                    alt="bench image">
+                <button>24 Comments</button>
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Beatae illo quam laboriosam illum eveniet nesciunt aspernatur ipsum, autem quis
+                    nisi molestiae culpa! Rerum, repudiandae similique? Obcaecati quos rerum rem magnam quisquam illo
+                    cupiditate aliquid labore sit, quaerat corrupti libero fuga vel voluptatem iure fugiat, distinctio
+                    optio praesentium eos nulla consequuntur vitae? Veniam modi totam aliquid, facere ullam quidem
+                    recusandae? Laborum tempora nemo at sint excepturi officiis. In, commodi atque. Laudantium. Deserunt
+                    maxime eum quod veritatis, quas,
+                    saepe
+                    accusantium, voluptatum asperiores unde dicta quam assumenda minus nostrum mollitia cum repellendus
+                    consequatur voluptate placeat
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit fugit earum iste soluta expedita .
+                    <br> <br>
+                    <span><a href="#" style="margin-left: 30px;">Leave Comment</a></span>
+                </p>
+            </div>
+        </div>
+
+        <!-- third content end -->
+
+        <!-- ----------------------------------------------------- -->
+
+        <!-- Third label -->
+        <div class="t_image">
+
+            <div class="image_12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXOe1W4Ddg961SlLU72HpDOklmoAjvglwgWg&usqp=CAU"
+                    alt="image1">
+            </div>
+            <div class="image_12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCSyWhyXh_r-qjxd2QCcEtHHhzbKLphs0Esg&usqp=CAU"
+                    alt="image2">
+            </div>
+            <div class="image_12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvozgoYds0W8NNZLS3ssR005it5mxUOHw8IQ&usqp=CAU"
+                    alt="image3">
+            </div>
+            <div class="image_12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk_395KvK0uxAb8pDvnuCBKbWJhdu2-I7XZg&usqp=CAU"
+                    alt="image4">
+            </div>
+            <div class="image_12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk-gjZpT5N4rlg3HrAWsWLP3CVq_5V5vfQkA&usqp=CAU"
+                    alt="image5">
+            </div>
+            <div class="image_12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToqpJ3dACWE2jRbO43oc7RXbsl0wCKfw4tgw&usqp=CAU"
+                    alt="image6">
+            </div>
+            <div class="image_12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1y-G5zg9uDGCpvGkb_qQbnq_KT4BzVF3KPg&usqp=CAU"
+                    alt="image7">
+            </div>
+            <div class="image_12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVlGZGRdK0P1yyKSp0kdsiYLFYB3QWqmjZ4w&usqp=CAU"
+                    alt="image8">
+            </div>
+            <div class="image_12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtRFG-9vjpxBiJetdGtbzPVUUqabXOz_uIcQ&usqp=CAU"
+                    alt="image9">
+            </div>
+            <div class="image_12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmdU3XE-YFGIXjD2xBFHg2rfOQaXwxUaG0_g&usqp=CAU"
+                    alt="image10">
+            </div>
+            <div class="image_12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0k_3YmUwMQanM_9pvFKV_yI21gUjHfp_XRsdZVeH6LzTmQpPKsnpbHRmI4AZx677tKyk&usqp=CAU"
+                    alt="image11">
+            </div>
+            <div class="image_12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNzkUjXn-Pd67RkmqE-zyWH8oCK91LGDsWejF9ltHRWB41Qt8rJ71vtsSTFdq6HFpM83A&usqp=CAU"
+                    alt="image12">
+            </div>
+        </div>
+    </div>
+
+    <!-- Third label end -->
+    <!-- third portion end -->
+
+    <!-- -------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- Fourth Portion -->
+    <!-- Fourth contain -->
+
+    <div class="Fourth" style="margin-bottom: 20px;">
+
+        <div class="cl1">
+            <h3 class="head">Our Favorite Tweets of the Week</h3>
+            <hr class="head">
+            <h4 class="head">On 07 - Aug - 2023, <span><a href="#">Tuesday</a> by <a href="#">Dream Template</a></span>
+            </h4>
+            <div class="image">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCRdEfsIddrA7KFpevgaTpDkmEbiKNlks0Xw&usqp=CAU"
+                    alt="bench image">
+                <button>3 Comments</button>
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Aperiam quam eius culpa quo id accusamus eaque quaerat ipsum cum corporis,
+                    delectus ex molestiae sed vero enim deserunt tempora temporibus reiciendis? Dicta sint laboriosam
+                    perferendis eveniet dolor quaerat beatae nemo dolores possimus doloribus tenetur consequatur est ad
+                    cupiditate qui quos, quod quisquam earum quas aperiam, autem maxime quae eos? Sint fuga eum est
+                    officia eligendi earum quasi quas, cupiditate fugit ipsa. Deserunt maxime eum quod veritatis, quas,
+                    saepe
+                    accusantium, voluptatum asperiores unde dicta quam assumenda minus nostrum mollitia cum repellendus
+                    consequatur voluptate placeat
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit fugit earum iste soluta expedita .
+                    <br> <br>
+                    <span><a href="#" style="margin-left: 30px;">Leave Comment</a></span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Fourth contain end -->
+        <!-- fourth label start -->
+
+        <div class="ad">
+            <div class="p1"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgVmdx5BtNJDIezJ-2KJBfSepL4mdVRuQEATEiWQfyDhFk5aYOAYJX0Zy6gTDpOZSWeo8&usqp=CAU"
+                    alt="nature image"></div>
+            <div class="p2"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7yly994G4uprBF7NUN2owzCgbYGG2H-gW_I5qK7mTi7iuDstj_0tilcAt-6J-8bjaBuY&usqp=CAU"
+                    alt="brief image"></div>
+        </div>
+
+    </div>
+    <!-- Fourth label end -->
+
+    <!-- ------------------------------------------------------------------------------------------------------------- -->
+
+    <div class="footer">
+
+        <div class="left">
+            
+            <span style="background-color:rgb(66, 66, 66) ;"><i class="fa-solid fa-copyright" style="background-color:rgb(66, 66, 66) ;"></i> Copyright <a href="#" style="background-color:rgb(66, 66, 66) ;">Template</a> all Rights Reserved</span>
+        </div>
+
+        <div class="right">
+            <span style="background-color:rgb(66, 66, 66) ;">Design (<a href="#" style="background-color:rgb(66, 66, 66) ;">TS</a>) Website</span>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
