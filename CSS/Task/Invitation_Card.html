@@ -1,0 +1,110 @@
+<!-- Create a Invitation Card -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+
+        .main {
+                /* background-color: rgb(30, 63, 92); */
+                background-image: url('https://img.freepik.com/premium-photo/gold-black-marble-abstract-background_236836-4934.jpg?w=360');
+            background-size: 100% 100%;
+        }
+
+        .main {
+            height: 700px;
+            width: 25%;
+            /* border: 2px red solid; */
+            margin-left: 40%;
+        }
+        
+        .main :hover{
+            box-shadow: 0px 0px 50px black;
+
+        }
+
+        .border{
+            height: 620px;
+            border: 40px solid;
+            border-image: url("D:/Full Stack/FE/HTML/image/Border-gold.png") 50 90 50 90;
+        }
+        
+        /* ---------------------------------------------------------- */
+
+        .Wedding-image{
+            margin-left:20%;
+        }
+
+        /* ---------------------------------------------------------- */
+
+        .invite-line{
+            width: 220px;
+            margin-left: 12.8%;
+        }
+
+        .invite-line p{
+            color: burlywood;
+            text-align: center;
+            text-shadow: 0px 0px 5px white;
+        }
+
+        /* ---------------------------------------------------------- */
+
+            @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+        .name{
+            font-style: italic;
+            font-family: 'Borel', cursive;
+            text-align: center;
+            font-size:x-large;
+            color: burlywood;
+            text-shadow: 0px 0px 2px currentColor;
+
+            
+        }
+
+        /* ---------------------------------------------------------- */
+
+        .date , .add2{
+            text-align: center;
+            font-size: small;
+            color: burlywood;
+            /* text-shadow: 0px 0px 2px white; */
+        }
+
+        /* ---------------------------------------------------------- */
+
+    </style>
+</head>
+
+<body>
+    <div class="main bgimg">
+
+        <div class="border">
+            <img class="Wedding-image" src="https://www.pngplay.com/wp-content/uploads/8/Wedding-Card-Transparent-PNG.png" alt="Wedding image" height="150px" width="180px">
+
+            <div class="invite-line"><p>We are Very Placed to invite you to Our Wedding</p></div>
+
+            <div class="name">
+                <h3>ચી. Krishvi Kapoor </h3>
+                <h3>&</h3>
+                <h3>ચી. Ridham Joseph</h3>
+            </div>
+
+            <div class="date"><h3>SAVE THE DATE</h3>
+            <h3 class="day-time">Monday , September 11 th 2023 | 09.00 AM</h3></div>
+
+            <i class="fa-solid fa-location-dot" style="margin-left: 49%;"></i>  
+            
+            <div class="add"><h3 class="add2">AT, Tops Technologies</h3></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
