@@ -1,0 +1,54 @@
+<!-- Practice of display flex -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+    <style>
+        body{
+
+            background-color: black;
+        }
+        .container{
+            height: 700px;
+            width: 100%;
+            border: 1px solid black;
+            display: flex;
+            flex-direction:row;
+            /* row-gap: 10px; */
+            justify-content:space-around;
+            align-items: center;
+        }
+
+        .bg{
+            background-image: url(https://images.pexels.com/photos/3620913/pexels-photo-3620913.jpeg?cs=srgb&dl=pexels-marina-3620913.jpg&fm=jpg);
+            background-size: 100% 100%; 
+        }
+
+        .item{
+            height: 350px;
+            width: 200px;
+            background-color: darkblue;
+            /* border: 1px solid white; */
+            color: white;
+            border-radius: 30px;
+            box-shadow: 0px 0px 20px black;
+        }
+
+        .item img{
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container bg">
+        <div class="item i1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjnDN5OVABqiEl9_nIlKNb9t7QhMvHm4CVLA&usqp=CAU" height="100%" width="100%" alt=""></div>
+        <div class="item i4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQveeXRn_w5uakvjB5IF89reoqTj9-Ihn00dA&usqp=CAU" height="100%" width="100%" alt=""></div>
+        <div class="item i3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1OeGPFejTG9F3Ux-GNWLK2GOeQsZYTE3iLg&usqp=CAU"  height="100%" width="100%" alt=""></div>
+        <div class="item i5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK7uHMNvVgQ_EcEDWxBLU13VEPwpBWxLQS1-TqMh6fcQ5qdtaHQJOXK-G4k5UOat5bdSA&usqp=CAU" height="100%" width="100%" alt=""></div>
+        <div class="item i2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjpMJ8YJeR4Sx6rgYm-5OROhlLTrCaLxnLSA&usqp=CAU"  height="100%" width="100%" alt=""></div>
+    </div>
+    
+</body>
+</html>
