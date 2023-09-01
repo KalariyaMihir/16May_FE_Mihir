@@ -1,0 +1,138 @@
+/* Media query's */
+@media(max-width : 500px)
+{
+
+    header{
+        background-color: black;
+        color: white;
+        height: 50px;
+        position: relative;
+    }
+
+    header .fa-solid{
+        
+        display: block;
+        color: white;
+        font-size: 20px;
+        line-height: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .menu .fa-user{
+        width: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    header .hov:hover .menu{
+        display: block;
+    }
+
+    header .logo{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    header .logo span{
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    header img , .menu , button{
+        display: none;
+    }
+
+    header .menu{
+        position: absolute;
+        /* width: 200px !important; */
+        right: 0;
+        /* margin-left: -110px; */
+    }
+
+    header .menu ul{
+        display: block;
+        width: fit-content;
+        margin: 0;
+    }
+    
+    header .menu ul li{
+        top: -5;
+        text-align: left;
+        display: block;
+        padding: 5px 0;
+        background-color: black;
+        color: white;
+        margin: 5px 0 ;
+        /* margin: 0; */
+        /* padding: 0 ; */
+    }
+
+    header .menu ul li a{
+        color: white;
+        width: 200px;
+    }
+
+
+    /* ---------------------------------------------------------------- */
+
+    section img{
+        height: 300px;
+        width: 100%;
+    }
+
+    /* ---------------------------------------------------------------- */
+
+    footer{
+        flex-wrap: wrap;
+        row-gap: 50px;
+
+    }
+    footer div{
+        width: 100%;
+    }
+
+    /* --------- */
+    
+    footer .first{
+        text-align: center;
+    }
+
+    /* --------- */
+
+    footer .second{
+        text-align: center;
+    }
+
+    /* --------- */
+
+    footer .second i{
+        /* justify-content: right; */
+        margin: auto 3%;
+    }
+
+    /* --------- */
+
+    footer .contact b{
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    footer .contact .mail{
+        margin-left: 0;
+    }
+
+    footer .contact{
+        text-align: center;
+    }
+
+    /* --------- */
+
+    .team {
+        text-align: center;
+    }
+
+
+}
