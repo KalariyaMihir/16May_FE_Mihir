@@ -1,0 +1,75 @@
+<!-- Practice of Animation -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <!-- <link rel="shortcut icon" href="https://uploads.sitepoint.com/wp-content/uploads/2017/01/1483422029image03.gif" type="image/x-icon"> -->
+
+    <style>
+        body{
+            background-color: black;
+        }
+        .ani{
+            height: 50px;
+            width: 50px;
+            border-top: 5px solid skyblue;
+            border-radius: 50%;
+            animation: linear;
+            animation-name: spinner;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-play-state: running;
+            animation-duration: 1s;
+            animation-timing-function:ease-in;
+            position:relative;
+        }
+
+        
+        @keyframes spinner {
+            0%{
+                transform: rotate(0deg);
+                border-color: white;
+                /* top: 0;
+                left: 10%; */
+            }
+            
+            25%{
+                transform: rotate(45deg);
+                border-color: skyblue;
+                /* top: 150px;
+                left: 90%; */
+            }
+
+            50%{
+                transform: rotate(90deg);
+                border-color:rgb(61, 61, 247);
+                /* top: 250px;
+                left: 1%; */
+            }
+
+            75%{
+                transform: rotate(180deg);
+                border-color:blue;
+                /* top: 500px;
+                left: 90%; */
+            }
+
+            100%{
+                transform: rotate(360deg);
+                border-color: navy;
+                /* top: 600px;
+                left: 49%; */
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="ani">
+
+    </div>
+</body>
+</html>
