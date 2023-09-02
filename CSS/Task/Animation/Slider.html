@@ -1,0 +1,59 @@
+<!-- Task to create a Slider with animation  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <style>
+        .slide {
+            width: 720px;
+            margin:100px auto;
+            position: relative;
+        }
+
+        .slide .l1 {
+            position: absolute;
+        }
+
+        .slide:hover .i1 {
+            transition: 1s;
+            transform: skew(180deg);
+            filter: brightness(50%);
+        }
+
+        .slide .img2 {
+            position: absolute;
+            height: 500px;
+            width: 700px;
+            transform: scale(0);
+        }
+
+        .slide:hover .img2{
+            box-shadow: 0 0 50px black;
+            top: 0px;
+            z-index: 5;
+            transition: 1s;
+            transform: scale(1);
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="slide">
+        <img class="i1"
+            src="https://images.unsplash.com/photo-1579541591970-e5780dc6b31f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFuZHNjYXBlJTIwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="" height="500px" width="700px">
+
+        <div class="img2">
+            <img src="https://images.unsplash.com/photo-1611270164921-867ede5efe70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGFydHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="" height="500px" width="700px">
+        </div>
+    </div>
+
+</body>
+
+</html>
