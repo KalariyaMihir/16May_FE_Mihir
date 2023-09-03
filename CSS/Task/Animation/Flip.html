@@ -1,0 +1,85 @@
+<!-- Task to create a Slider with animation  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip</title>
+    <style>
+        .slide {
+            width: 450px;
+            height: 250px;
+            margin:100px auto;
+            /* border: 2px ridge black; */
+            position: relative;
+        }
+
+        .slide .l1 {
+            position: absolute;
+        }
+
+        .slide:hover .i1 {
+            box-shadow: 0 0 7px gray;
+            transition: 0.3s;
+            transform:scaleX(-1);
+            /* filter: brightness(50%); */
+        }
+
+        /* ************************* */
+
+        .slide .b1{
+            /* border: 1px solid red; */
+            height: 60px;
+            width: 450px;
+            position: absolute;
+            top: 0;
+            /* visibility: hidden; */
+            opacity: 0%;
+        }
+
+        .slide .b1{
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            font-size: 50px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.559);
+            line-height: 60px;
+        }
+
+        .slide:hover .b1{
+            /* visibility: visible; */
+            opacity: 100%;
+            top: 180px;
+            transition: 1s;
+        }
+
+        .slide .b1:hover{
+            color: black;
+            background-color: rgb(54, 238, 226);
+            outline: 5px rgb(54, 238, 226) solid;
+            cursor: pointer;
+            /* padding: 5px; */
+            transition: 0.3s;
+            outline-offset: 5px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="slide">
+        <img class="i1"
+            src="https://images.unsplash.com/photo-1579541591970-e5780dc6b31f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFuZHNjYXBlJTIwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="" height="250px" width="450px">
+
+        <div class="b1">
+            Hover Me
+        </div>
+    </div>
+
+</body>
+
+</html>
