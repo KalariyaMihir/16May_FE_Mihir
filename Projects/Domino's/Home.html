@@ -1,0 +1,443 @@
+<!-- Index page of Domino's -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domino's Pizza</title>
+    <!-- <link rel="shortcut icon" href="https://cdn.iconscout.com/icon/free/png-256/free-dominos-pizza-1863639-1581234.png" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+
+        
+    <style>
+        table,
+        th,
+        td {
+            border: 0px hidden black;
+            /* border-collapse: collapse; */
+        }
+
+        .head-text
+        {
+            color: #5f88a3;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 600;
+        }
+
+
+        .bg-img1 {
+            background-color: #1A5CA3;
+        }
+
+        
+
+        .scroll-size {
+            height: 260px;
+            width: 600px;
+            margin-right:20px ;
+        }
+
+        .border {
+            border: 1px dotted gray;
+            height: 260px;
+            width: 260px;
+        }
+
+        .footer {
+            background-color: #222E3A;
+            color: #FFFFFF;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            letter-spacing: 1pt;
+        }
+
+        .Footerhead {
+            color: #546273;
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        a
+        {
+            color: #FFFFFF;
+            text-decoration-line:none;
+        }
+
+        .button {
+            font-size: 12px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #F3ECEC;
+            border: 2px outset #F3ECEC;
+            border-radius: 2px;
+            margin: 1px;
+            font-weight: 600;
+            margin-right: 3px; 
+        }
+
+        .logo {
+            margin-right: 25px;
+        }
+
+        .order-button {
+            width: 400px;
+            height: 63px;
+            font-size: 18px;
+            color: #FFFFFF;
+            background-color: #1FB31A;
+            font-weight: 700;
+            border: none;
+            border-radius: 2px;
+            
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <table style="width: 100%; border-collapse: collapse;" >
+        <thead>
+            <tr>
+                <td><img src="https://www.dominos.co.in/assets/Logo.png" alt="logo" width="211px" height="33px"
+                    style="margin-left: 60px; margin-right: 100px;"></td>
+                    <td><a href="https://www.dominos.co.in/menu" class="head-text">OUR MENU</a></td>
+                    <td><a href="https://www.dominos.co.in/store-locations/" class="head-text">DOMINO'S STORES</a></td>
+                    <td><a href="https://www.dominos.co.in/gift-vouchers" class="head-text">GIFT CARD</a></td>
+                    <td><a href="https://www.dominos.co.in/virtual-pizza-party" class="head-text" >CORPORATE ENQUIRY</a></td>
+                    <td><a href="https://www.dominos.co.in/contact" class="head-text" style="margin-right: 50px;">CONTACT</a></td>
+                    <td><a
+                        href="https://play.google.com/store/apps/details?id=com.Dominos&hl=en&shortlink=3e839899&c=brand-home&pid=Brand-Home&source_caller=ui&pli=1"><button style="width: 148px; height: 45px; background-color:#F3223B; color: #FFFFFF; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 600; font-size: 16px; border: none; border-radius: 3px;" >Download
+                            App</button></a></td>
+                        </tr>
+        </thead>
+    
+    <!-- ------------------------------------------------------------------------------------ -->
+
+        <tr>
+            <td colspan="2" class="bg-img1" style="width: 42%;">
+                <span style="color: #FFFFFF; font-size: 36px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding-left: 100px;">Domino's online ordering</span>
+                <h3 style="color: #47A0FF; font-size: 21px; padding-left: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Yummy pizza delivered fast & fresh</h3><br><br>
+                <button class="order-button" style="margin-left: 100px; box-shadow: 0px 1px 5px black;"><a href="../Domino's/Home_3.html">ORDER ONLINE NOW</a></button>
+                <br><br> 
+                <img src="https://www.dominos.co.in/assets/banner_brand_20210922.jpg" alt="Banner Brand image" style="padding-left: 100px;">
+            </td>
+            <td class="bg-img1" colspan="5"><img src="https://www.dominos.co.in/assets/header_bg.png" alt="Image"width="100%"></td>
+            </tr>
+
+    
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+
+            <tr><td colspan="7" style="background-color: #d6d6d6;"><a href="../Domino's/Home.html" style="color: #47A0FF;padding-left: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 13px; ">Home</a></td></tr>
+            
+    </table>
+    <table>
+        <!-- ------------------------------------------------------------------------------------ -->
+        
+        <tr>
+            <td colspan="7" style=" color: #708AA5; font-size: 30px; font-weight: 700; letter-spacing: 1px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding-left: 60px;">Coupons & Offers</td>
+        </tr>
+
+        <!-- ------------------------------------------------------------------------------------ -->
+        <tr>
+            <td colspan="7">
+                <blockquote style="padding: 0px 20px 0px 0px;">
+                    <marquee behavior="" direction=""><img
+                            src="https://api.dominos.co.in/prod-olo-api/images/amazon_home_20210412.jpg"
+                            alt="30/- Coupons" class="scroll-size">
+                        <img src="https://api.dominos.co.in/prod-olo-api/images/Home_Paytm_20210519.jpg"
+                            alt="399 cashback offer" class="scroll-size">
+                        <img src="https://api.dominos.co.in/prod-olo-api/images/Home_airtel_30082020.jpg"
+                            alt="15% cashback airtel  upto 150/-" class="scroll-size">
+                        <img src="https://api.dominos.co.in/prod-olo-api/images/Home_Freecharge_20210405.jpg"
+                            alt="15% cashback freecharge upto 100/- " class="scroll-size">
+                        <img src="https://api.dominos.co.in/prod-olo-api/images/Dominos_Mobi_Home_20210503.jpg"
+                            alt="300/- cashback on mobikwik" class="scroll-size">
+                        <img src="https://api.dominos.co.in/prod-olo-api/images/Home_payzapp_20201029.jpg"
+                            alt="15% cashback payzapp upto 100/- " class="scroll-size">
+                        <img src="https://api.dominos.co.in/prod-olo-api/images/Home_au_20201029.jpg"
+                            alt="20% cashback AU bank upto 200/-" class="scroll-size">
+                    </marquee>
+                </blockquote>
+            </td>
+        </tr>
+
+        <!-- ------------------------------------------------------------------------------------ -->
+
+
+        <tr>
+            <td colspan="7" style=" color: #708AA5; font-size: 30px; font-weight: 700; letter-spacing: 1px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding-left: 60px;">Explore</td>
+        </tr>
+
+        <!-- ------------------------------------------------------------------------------------ -->
+        <tr>
+
+
+            <td colspan="7">
+                <div style="margin-left:60px ;">
+
+                    <!-- Image Map Generated by http://www.image-map.net/ -->
+                    <img src="D:\Full Stack\FE\HTML\image\Domino's_menu.png" usemap="#image-map" height="100%"
+                        width="95%">
+
+                    <map name="image-map">
+                        <area target="_self" alt="" title="" href="https://www.dominos.co.in/menu" coords="6,6,332,398"
+                            shape="rect">
+                        <area target="_self" alt="" title="" href="https://www.dominos.co.in/store-location/"
+                            coords="344,4,679,403" shape="rect">
+                        <area target="_self" alt="" title="" href="https://www.dominos.co.in/bday-party"
+                            coords="691,9,1026,404" shape="rect">
+                        <area target="_self" alt="" title="" href="https://www.dominos.co.in/wedding"
+                            coords="1020,4,1442,403" shape="rect">
+                    </map>
+                </div>
+            </td>
+        </tr>
+
+        <!-- ------------------------------------------------------------------------------------ -->
+    <table style="width: 100%; border-collapse: collapse;">
+        <tr>
+            <td colspan="2" style="background-color: #f2f5fc;">
+                <img src="https://www.dominos.co.in/assets/new_app_img.png" alt="Image" style="margin-left: 17%;">
+            </td>
+
+
+            <td colspan="5" style="background-color: #f2f5fc; padding-right: 70px;">
+
+                <h3
+                    style="color: #59688c; font-size: 40px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 23%; ">
+                    Unlock Exclusive Offers</h3>
+                <p
+                    style="color: #8899C0; font-size: 27px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 23%;">
+                    For lightning fast ordering experience <br> download the Domino’s app</p>
+
+
+                <img src="https://www.dominos.co.in/assets/play_store.png" alt="play store image"
+                    style=" margin-left: 23%; margin-top: 20px;" >
+                <img src="https://www.dominos.co.in/assets/app_store.png" alt="app store image">
+            </td>
+        </tr>
+    </table>
+        <!-- ------------------------------------------------------------------------------------ -->
+
+    <table>
+        <tr>
+            <td colspan="7">
+                <h3
+                    style="font-size: 30px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #006491;">
+                    Domino's Pizza: Delivering Happiness</h3>
+                <p style="color: #54565b; font-family: Arial, Helvetica, sans-serif;">What’s better than having a crispy
+                    melty pizza, you ask? <br><br>
+
+                    Having that crispy and melty pizza in the comfort of your own home with the ones you love, we say.
+                    <br><br>
+
+                    With Domino's it is always “Rishton ka time”. Whether it's a treat for your promotion, a kid topping
+                    his class or winning the heart of your wife who is too tired to cook after a long day at work! A
+                    cheesy slice of the best pizza is all one needs to put things into perspective and start any
+                    celebration. Plus, you do not even need to rush to the restaurant to have one now. A call, a few
+                    clicks on our website or a few touches on the mobile screen is all you have to do to have that
+                    tempting, light-on-the-pocket pizza at your doorstep. <br><br>
+
+                    There is something for everyone here. The vegetarians, non-vegetarians, the sides’ lovers and also
+                    the ones who love to have something sweet by the time they reach the last bite of the last slice of
+                    pizza slice.
+                </p>
+
+                <h3
+                    style="font-size: 30px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #006491;">
+                    What We Need - More Choice. More Fun.</h3>
+                <p style="color: #54565b; font-family: Arial, Helvetica, sans-serif;">No matter what the situation,
+                    pizza always helps. Especially a pizza that gives you the freedom to choose your toppings - from
+                    paneer, crisp capsicum, onion, grilled mushroom, golden corn, black olives, fresh tomato, red
+                    paprika, jalapeno, paneer tikka and extra cheese to non-veg toppings such as pepper barbeque
+                    chicken, peri-peri chicken, grilled chicken rasher, chicken sausage or chicken tikka- the options
+                    are almost endless, anything and everything you can think of that too on top of the crust of your
+                    choice - New hand-tossed crust, wheat thin crust, cheese burst crust, classic hand-tossed crust or a
+                    fresh pan pizza. Because just like a pizza, Domino's understands you. <br><br>
+
+                    And to shoo away those end-of-the-month blues while placing your order with our pizza restaurant,
+                    check out the everyday pizzas from pizza mania combos with everyday value offer of 2 pizzas starting
+                    at just ₹99 (regular size) and ₹199 (medium size) each.
+                </p>
+
+                <h3
+                    style="font-size: 30px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #006491;">
+                    The Promise Of 30-Minute Delivery</h3>
+                <p style="color: #54565b; font-family: Arial, Helvetica, sans-serif;">The icing on the cake or more
+                    aptly the extra cheese on your already fabulous pizza is that Domino’s takes only half an hour for
+                    its pizza delivery service. Don’t believe us? Time it if you please. With 1250+ stores present all
+                    over India, you can have a Domino’s pizza even while traveling on a train. Yes, you are reading it
+                    right, you can enjoy pizza on train too. <br><br>
+
+                    So stop googling for the “pizza shops near me” and order from your nearest pizza outlet to have a
+                    hot box of pizza on your table in the next 30 minutes, or berth at the next halting station.
+                </p>
+
+                <h3
+                    style="font-size: 30px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #006491;">
+                    Franchise Information</h3>
+                <p style="color: #54565b; font-family: Arial, Helvetica, sans-serif;">Jubilant FoodWorks Limited is the
+                    Master Franchisee of Domino’s Pizza in India, Bangladesh, Sri Lanka and Nepal with sole and
+                    exclusive rights to own and operate Domino’s Pizza restaurants in these territories. For any
+                    franchise-related queries, kindly email us directly at dominos.franchise@jublfood.com <br><br>
+                    We have come across a few instances of fraudsters posing as Jubilant FoodWorks and asking for
+                    payment from gullible investors against the promise of a Domino’s franchise. We therefore caution
+                    and urge all interested parties to be careful and vigilant and interact only with the email id
+                    mentioned above. Anyone dealing with such fraudsters shall be doing so on their own peril, risk and
+                    consequences. <br><br>
+
+                    Neither Jubilant FoodWorks nor its Directors/Officers shall be responsible for any loss, harm,
+                    damage or fraud that occurs or may occur or arise to any person who decides to access such fake
+                    websites, or deal with them.
+                </p>
+
+            </td>
+        </tr>
+
+        <!-- ------------------------------------------------------------------------------------ -->
+
+        <tr>
+            <td colspan="7">
+                <a href="https://www.dominos.co.in/menu"><button class="button">Menu</button></a>
+                <a href="https://www.dominos.co.in/menu/veg-pizzas"><button class="button">Veg Pizza</button></a>
+                <a href="https://www.dominos.co.in/menu/non-veg-pizzas"><button class="button">Chicken
+                        Pizza</button></a>
+                <a href="https://www.dominos.co.in/menu/pasta"><button class="button">Pasta</button></a>
+                <a href="https://www.dominos.co.in/menu/choice-of-crusts"><button class="button">Pizza
+                        Crust</button></a>
+                <a href="https://www.dominos.co.in/menu/beverages"><button class="button">Beverages</button></a>
+                <a href="https://www.dominos.co.in/menu/pizza-mania"><button class="button">Pizza Mania</button></a>
+                <a href="https://www.dominos.co.in/menu/burger-pizza"><button class="button">Burger Pizza</button></a>
+                <a href="https://www.dominos.co.in/menu/veg-pizzas/farm-house"><button class="button">Farm House
+                        Pizza</button></a>
+                <a href="https://www.dominos.co.in/menu/veg-pizzas/margherita"><button class="button">Veg Margherita
+                        Pizza</button></a>
+                <a href="https://www.dominos.co.in/menu/veg-pizzas/cheese-n-corn"><button class="button">Cheese Corn
+                        Pizza</button></a>
+                <a href="https://www.dominos.co.in/menu/veg-pizzas/double-cheese-margherita"><button
+                        class="button">Double Cheese Margherita Pizza</button></a>
+                <a href="https://www.dominos.co.in/menu/veg-pizzas/paneer-makhani"><button class="button">Panner Makhani
+                        Pizza</button></a>
+                <a href="https://www.dominos.co.in/menu/side-orders/lava-cake"><button class="button">Choco Lava
+                        Cake</button></a>
+                <a href="https://www.dominos.co.in/menu/chicken/roasted-chicken-wings-peri-peri"><button
+                        class="button">Roasted Chicken Wings</button></a>
+                <a href="https://www.dominos.co.in/menu/side-orders/garlic-breadsticks"><button class="button">Garlic
+                        Bread</button></a>
+                <a href="https://www.dominos.co.in/menu/side-orders/stuffed-garlic-bread"><button class="button">Stuffed
+                        Garlic Bread</button></a>
+                <a href="https://www.dominos.co.in/menu/side-orders/veg-parcel"><button class="button">Paneer Zingy
+                        Parcel</button></a>
+                <a href="https://www.dominos.co.in/menu/choice-of-crusts/fresh-pan-pizza"><button class="button">Fresh
+                    Pan Pizza</button></a>
+                    <a href="https://www.dominos.co.in/menu/choice-of-crusts/new-hand-tossed"><button class="button">New
+                        Hand Tossed Pizza</button></a>
+                <a href="https://www.dominos.co.in/menu/choice-of-crusts/classic-hand-tossed"><button
+                    class="button">Classic Hand Tossed Pizza</button></a>
+                <a href="https://www.dominos.co.in/menu/pizza-mania/golden-corn"><button class="button">Golden Corn
+                        Pizza</button></a>
+                <a href="https://www.dominos.co.in/menu/choice-of-toppings/extra-cheese"><button class="button">Extra
+                    Cheese Pizza</button></a>
+                    <a href="https://www.dominos.co.in/great-deals/online-pizza-coupons/dominos-wednesday-offers"><button
+                        class="button">Wednesday Offer - Pizza Buy 1 Get 1</button></a>
+                    </td>
+                </tr>
+                
+                <!-- ------------------------------------------------------------------------------------ -->
+                
+                
+    </table>
+
+    <!-- ------------------------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------------------------ -->
+
+    <div class="footer">    
+        <table style="width: 100%;"  cellspacing="10px">
+
+        
+            <tr class="Footerhead" >
+                <td><a href="https://www.dominos.co.in/menu" style="color: #546273;">Menu</a></td>
+                <td>Company</td>
+                <td>Pizza Restaurants</td>
+                <td>About</td>
+                <td>Legal</td>
+                <td style="width: 300px;">Social Media</td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            
+            
+
+            <tr style="padding-top: 30px;">
+                <td><a href="https://www.dominos.co.in/menu/veg-pizzas">Veg pizza</a></td>
+                <td><a href="https://www.dominos.co.in/blog/">Blog</a></td>
+                <td><a href="https://www.dominos.co.in/restaurants-near-me">Restaurants Near Me</a></td>
+                <td><a href="https://www.dominos.co.in/gift-vouchers">Gift Card</a></td>
+                <td><a href="https://pizzaonline.dominos.co.in/disclaimer?_ga=2.222168920.1726948118.1690527661-893095367.1687940059">Disclaimer</a></td>
+                <td rowspan="2"><a href="https://www.facebook.com/dominospizzaindia" class="logo"><img src="https://www.dominos.co.in/assets/fb.png" alt="Facebook image"></a>
+                                <a href="https://twitter.com/dominos_india" class="logo"><img src="https://www.dominos.co.in/assets/twitter.png" alt="Twitter Image"></a>
+                                <a href="https://www.instagram.com/dominos_india/?hl=en" class="logo"><img src="https://www.dominos.co.in/assets/instagram.png" alt="Instagram Image"></a> 
+                                <a href="https://www.youtube.com/user/dominosindia" class="logo"><img src="https://www.dominos.co.in/assets/You_tube.png" alt="Youtube Image"></a>
+                </td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.dominos.co.in/menu/non-veg-pizzas">Chicken Pizza</a></td>
+                <td><a href="https://www.jubilantfoodworks.com/investors/overview">Investor</a></td>
+                <td><a href="https://www.dominos.co.in/pizza-near-me">Pizza Near Me</a></td>
+                <td><a href="https://pizzaonline.dominos.co.in/">Card Balance Enquiry</a></td>
+                <td><a href="https://pizzaonline.dominos.co.in/tnc?_ga=2.213788244.1726948118.1690527661-893095367.1687940059">Terms & Conditions</a></td>
+            </tr>
+            
+            <tr>
+                <td><a href="https://www.dominos.co.in/menu/pasta">Pasta</a></td>
+                <td><a href="https://www.dominos.co.in/feedback">FeedBack</a></td>
+                <td><a href="https://www.dominos.co.in/food-near-me">Food Near Me</a></td>
+                <td><a href="https://pizzaonline.dominos.co.in/faq?_ga=2.116852166.1726948118.1690527661-893095367.1687940059">FAQ</a></td>
+                <td><a href="https://www.dominos.co.in/privacy-policy">Privacy Policy</a></td>
+                <td><a href=""><img src="https://www.dominos.co.in/assets/hello_dominos_20210615.png" alt=""></a></td>
+            </tr>
+            
+            <tr>
+                <td><a href="https://www.dominos.co.in/menu/choice-of-crusts">Pizza Crust</a></td>
+                <td><a href="https://www.dominos.co.in/advertisement">Ads</a></td>
+                <td><a href="https://www.dominos.co.in/food-delivery">Food Delivery</a></td>
+                <td><a href="https://www.dominos.co.in/virtual-pizza-party">Virtual Pizza Party</a></td>
+            </tr>
+            
+            <tr>
+                <td><a href="https://www.dominos.co.in/menu/beverages">Beverages</a></td>
+                <td></td>
+                <td><a href="https://www.dominos.co.in/italian-food">Italian Food</a></td>
+                <td><a href="https://www.dominos.co.in/e-gift-voucher">E-Gift Vouchers</a></td>
+            </tr>
+            
+            <tr>
+                <td class="footer"><a href="https://www.dominos.co.in/menu/pizza-mania">Pizza Mania</a></td>
+                <td></td>
+                <td><a href="https://www.dominos.co.in/order-food-online">Order Food Online</a></td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td colspan="5"><a href="https://www.dominos.co.in/menu/burger-pizza">Burger pizza</a></td>
+            </tr>
+        </table>
+
+        <table style="border-top: dotted 1px white ; border-bottom: dotted 1px white; width: 100%; height: 60px; color: #54565b;">
+
+            <tr > 
+                <th colspan="7"> All Rights Reserved. Copyright © Jubilant FoodWorks Ltd.</th>
+            </tr>
+        </table>
+            
+</div>
+    
+            
+</body>
+
+</html>
