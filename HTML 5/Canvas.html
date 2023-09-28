@@ -1,0 +1,22 @@
+<!-- Practice of canvas -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+<body>
+    <canvas id="can" height="250px" width="500px" style="border: 1px solid red;">
+        canvas isn't work properly
+    </canvas>
+</body>
+
+<script>
+    var can = document.getElementById('can');
+    var context = can.getContext('2d');
+    console.log(context);
+    context.fillstyle = "#FF0000";
+    context.strokeRect(100,10,100,200);
+</script>
+</html>
