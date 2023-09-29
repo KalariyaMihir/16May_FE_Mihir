@@ -1,0 +1,92 @@
+<!-- Practice of Get dynamic value in java script -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic</title>
+    <style>
+        *{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
+        input{
+            display: block;
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+            height: 20px;
+            text-align: right;
+            margin: 2px auto 15px auto ;
+        }
+
+        #ans{
+            color: orange;
+            height: 40px; width: 135px;
+            font-size: 20px;
+        }
+
+        button{
+            margin: 10px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <label for="FV">First Value</label>
+    <input type="text" id="i1" name="FV" title="FV" required>
+
+    <label for="SV">Second Value</label>
+    <input type="text" id="i2" name="FV" title="FV" required>
+
+    <label for="Ans">Answer</label>
+    <input type="text" id="ans" name="Ans" title="Ans"  required>
+
+    <!-- addition -->
+    <button id="btn" onclick="add()">Addition</button>
+
+    <!-- subtraction -->
+    <button onclick="sub()">Subtraction</button>
+
+    <!-- multiplication -->
+    <button ondblclick="mul()">Multiplication</button>  <!-- it works on double click -->
+
+    <!-- division -->
+    <button onclick="div()">Division</button>
+
+    <!-- modules -->
+    <button onkeypress="mod()">Modules</button>  <!-- it works on keypress -->
+</body>
+
+<script>
+    var fn = document.getElementById('i1');  // fn -> first number
+    var sn = document.getElementById('i2');  // sn -> second number
+    var eq = document.getElementById('ans');  // eq -> equation
+
+    function add()
+    {
+        ans.value = parseInt(fn.value) + parseInt(sn.value);
+    }
+
+    function sub()
+    {
+        ans.value = parseInt(fn.value) - parseInt(sn.value);
+    }
+
+    function mul()
+    {
+        ans.value = parseInt(fn.value) * parseInt(sn.value);
+    }
+
+    function div()
+    {
+        ans.value = parseInt(fn.value) / parseInt(sn.value);
+    }
+
+    function mod()
+    {
+        ans.value = parseInt(fn.value) % parseInt(sn.value);
+    }
+</script>
+</html>
