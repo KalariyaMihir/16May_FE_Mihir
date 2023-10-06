@@ -1,0 +1,42 @@
+<!-- Practice of Relational Operator -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relational Operator</title>
+
+    <style>
+        body{
+            background-color:gray;
+        }
+        #message{
+            font-family: sans-serif;
+            color: black;
+            text-align: center;
+            word-spacing: 10px;
+            letter-spacing: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="message"></h1>
+
+    <script>
+        var fn = parseInt(prompt('Enter First Value -> '));
+        var sn = parseInt(prompt('Enter Second Value -> '));
+
+        if(fn>sn)
+        {
+            document.getElementById("message").innerHTML = 'First Value is Bigger then Second.';
+        }
+
+        else{
+            document.getElementById("message").innerHTML = 'Second Value is Bigger then First.';
+        }
+
+        
+    </script>
+</body>
+</html>

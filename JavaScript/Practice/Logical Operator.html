@@ -1,0 +1,78 @@
+<!-- Practice of Logical Operator in js -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical Operator</title>
+    <style>
+        p {
+            color: green;
+            background-color: orange;
+            font-family: monospace;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button onclick="end()">Logical End (&&)</button>
+    <button onclick="or()">Logical Or (||)</button>
+    <button onclick="not()">Logical Not (!)</button>
+    <p id="p"></p>
+
+    <script>
+
+        function end() // if both condition is true then ans is true and one condition is false then ans is false -> 0 == 0 (true) , 0 == 1 (false)
+        {
+            var first = parseInt(prompt('Enter First Value :')), second = parseInt(prompt('Enter Second Value :'));
+
+            if ((first == second) && (second == first)) 
+            {
+                document.getElementById("p").innerHTML = 'Access Approved';
+            }
+
+            else {
+                document.getElementById("p").innerHTML = 'Access Denied';
+            }
+        }
+
+        // Logical or Function
+
+        function or() // in logical or if one condition is true then ans is true or one condition is true or one is false then ans is true -> 0 == 0 || 0 == 1 (true)
+                      // and if both condition is false then answer is false -> 0 == 1 || 1 == 0 (false)
+        {
+            let first = parseInt(prompt('Enter First Value :')), second = parseInt(prompt('Enter Second Value :'));
+
+            if ((first >= 9) || (second <= 9))
+            {
+                document.getElementById("p").innerHTML = 'Access Approved';
+            }
+
+            else {
+                document.getElementById("p").innerHTML = 'Access Denied';
+            }
+        }
+
+        // Logical not Function 
+
+        function not() // in logical not true condition gets false and false gets true -> 0 == 0 (false)  or 0 == 1 (true)
+        {
+            const first = parseInt(prompt('Enter First Value :')), second = parseInt(prompt('Enter Second Value :'));
+
+            if ((!(first >= 9) || (second <= 9)))
+            {
+                document.getElementById("p").innerHTML = 'Access Approved';
+            }
+
+            else {
+                document.getElementById("p").innerHTML = 'Access Denied';
+            }
+        }
+    </script>
+</body>
+
+</html>

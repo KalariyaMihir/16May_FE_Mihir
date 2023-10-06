@@ -1,0 +1,32 @@
+<!-- Practice of Nested if -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested if</title>
+</head>
+<body>
+    <script>
+        var age = parseInt(prompt('Enter Your Age :'));
+
+        if(age >= 18)
+        {
+            if(confirm('Do You have Voter ID ?'))
+            {
+                document.write('You are Eligible for Voting');
+            }
+
+            else
+            {
+                document.write('Apply for Voter ID');
+            }
+        }
+
+        else
+        {
+            document.write('You are Under age');
+        }
+    </script>
+</body>
+</html>
