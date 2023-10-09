@@ -1,0 +1,52 @@
+<!-- try all arithmetic operator -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic</title>
+    <style>
+        h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1 id="add"></h1>
+    <h1 id="sub"></h1>
+    <h1 id="div"></h1>
+    <h1 id="mul"></h1>
+    <h1 id="mod"></h1>
+    <h1 id="pow"></h1>
+    <h1 id="inc"></h1>
+    <h1 id="dec"></h1>
+
+</body>
+
+
+    <script>
+    console.log('This is Arithmetic Operators');
+
+        var a=10;
+        var b=3;
+
+        var c=a+b;
+
+        // to print in element code
+        document.getElementById('h1').innerHTML=("10 + 3 :"+c);
+
+        // to direct print in document
+        document.write("10 + 3 : ",c);
+
+        console.log("10 + 3 : ",a+b);
+        console.log("10 - 3 : ",a-b);
+        console.log("10 / 3 : ",a/b);
+        console.log("10 * 3 : ",a*b);
+        console.log("10 % 3 : ",a%b);
+        console.log("10 ** 3 : ",a ** b);
+        console.log("Increment of 10 : ",++a);
+        console.log("Decrement of 3 : ",--b);
+    </script>
+</html>

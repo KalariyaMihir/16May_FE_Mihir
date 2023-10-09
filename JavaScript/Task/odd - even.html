@@ -1,0 +1,44 @@
+<!-- Task to get number and check if it is odd or even -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODD EVEN</title>
+    <style>
+
+        body{
+            background-color: rgb(21, 52, 74);
+        }
+
+        h1{
+            width: fit-content;
+            margin: auto;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 350px;
+            color: rgb(188, 141, 79);
+            text-shadow: 0 0 3px  black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="print"></h1>
+
+    <script>
+        var num = parseInt(prompt());
+
+        if( num % 2 == 0 )
+        {
+            document.getElementById("print").innerHTML= (num,' Number is even');
+        }
+
+        else
+        {
+            document.getElementById("print").innerHTML =  (num,' Number is Odd');
+        }
+    </script>
+</body>
+</html>
