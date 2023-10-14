@@ -1,0 +1,57 @@
+<!-- Task to find the given number is positive or negative -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Number</title>
+    <style>
+        
+         body{
+            background-color: rgb(21, 52, 74);
+        }
+
+        h1{
+            width: fit-content;
+            margin: auto;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 350px;
+            color: rgb(188, 141, 79);
+            text-shadow: 0 0 3px  black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="print"></h1>
+
+    <script>
+        alert('You can Check, the number is Positive || Negative || Neutral ');
+
+        var num = parseInt(prompt('Enter a Number'));
+
+        if(num > 0)
+        {
+            document.getElementById("print").innerHTML = 'Given Number is Positive.';
+        }
+
+        else if(num == 0)
+        {
+            document.getElementById("print").innerHTML = 'Given Number is Neutral.';
+        }
+
+        else if(num < 0)
+        {
+            document.getElementById("print").innerHTML = 'Given Number is Negative';
+        }
+
+        else
+        {
+            document.getElementById("print").innerHTML = 'Enter a Valid Input 😒';
+        }
+
+    </script>
+</body>
+</html>

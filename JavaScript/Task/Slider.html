@@ -1,0 +1,109 @@
+<!-- Practice of slider in js -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider JS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+
+        *{
+            margin: 0; padding: 0;
+        }
+
+        img{
+            margin-top: 70px;
+        }
+        
+        .img_class{
+            width:100%;
+            height:80vh;
+        }
+
+        button{
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.403);
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+
+        .right{
+            position: absolute;
+            right: 30px;
+            z-index: 5;
+            top: 350px;
+        }
+
+        .left{
+            position: absolute;
+            left: 30px;
+            z-index: 5;
+            top: 350px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://wallpaperset.com/w/full/2/5/9/172333.jpg" alt="" id="img">
+
+    <button class="right" type="button" onclick="image_change_right()"><i class="fa-solid fa-arrow-right" style="color: #dee2e8;"></i></button>
+    <button class="left" type="button" onclick="image_change_left()"><i class="fa-solid fa-arrow-left" style="color: #dee2e8;"></i></button>
+    
+
+    <script>
+        var img = document.getElementById('img');
+
+        img.classList.add('img_class');
+
+        // function for right side
+        function image_change_right()
+        {
+            if(img.src=='https://wallpaperset.com/w/full/2/5/9/172333.jpg')
+            {
+                img.src = 'https://wallpapers.com/images/hd/tree-on-green-lake-1519g7y2yexhnyvl.jpg';
+            }
+
+            else if(img.src == 'https://wallpapers.com/images/hd/tree-on-green-lake-1519g7y2yexhnyvl.jpg')
+            {
+                img.src='https://wallpapers.com/images/hd/yellow-sand-beach-b6p5zimgcshwbj3j.jpg';
+            }
+
+            else if(img.src == 'https://wallpapers.com/images/hd/yellow-sand-beach-b6p5zimgcshwbj3j.jpg')
+            {
+                img.src='https://wallpapers.com/images/hd/fantasy-planets-in-space-eadjr5zrwm5n88mo.jpg';
+            }
+
+            else{
+                img.src = 'https://wallpaperset.com/w/full/2/5/9/172333.jpg';
+            }
+        }
+
+
+        // function for left side
+        function image_change_left()
+        {
+            if(img.src == 'https://wallpaperset.com/w/full/2/5/9/172333.jpg')
+            {
+                img.src = 'https://wallpapers.com/images/hd/fantasy-planets-in-space-eadjr5zrwm5n88mo.jpg';
+            }
+
+            else if(img.src == 'https://wallpapers.com/images/hd/fantasy-planets-in-space-eadjr5zrwm5n88mo.jpg')
+            {
+                img.src = 'https://wallpapers.com/images/hd/yellow-sand-beach-b6p5zimgcshwbj3j.jpg';
+            }
+
+            else if(img.src == 'https://wallpapers.com/images/hd/yellow-sand-beach-b6p5zimgcshwbj3j.jpg')
+            {
+                img.src = 'https://wallpapers.com/images/hd/tree-on-green-lake-1519g7y2yexhnyvl.jpg'
+            }
+
+            else
+            {
+                img.src = 'https://wallpaperset.com/w/full/2/5/9/172333.jpg';
+            }
+        }
+    </script>
+</body>
+</html>
