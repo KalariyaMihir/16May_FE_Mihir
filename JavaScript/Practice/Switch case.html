@@ -1,0 +1,95 @@
+<!-- Practice of Switch case -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case</title>
+    <style>
+        *{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1{
+            text-align: center;
+            font-size: 15px;
+        }
+
+        span{
+            color: red;
+        }
+
+        button{
+            margin-left: 47%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>
+        <h1>Press <span> ' + ' </span> to do Addition</h1>
+        <h1>Press <span> ' - ' </span> to do Subtraction</h1>
+        <h1>Press <span> ' * ' </span> to do Multiplication</h1>
+        <h1>Press <span> ' / ' </span> to do Division</h1>
+        <h1>Press <span> ' % ' </span> to do Module's</h1>
+        <h1>Press <span> ' ++ ' </span> to do Increment</h1>
+        <h1>Press <span> ' -- ' </span> to do Decrement</h1>
+        
+    </p>
+
+    <button onclick="call()">Chose Option</button>
+
+    <hr>
+    <h1 id="print"></h1>
+    <h1 id="print2"></h1>
+    <script>
+
+        function call() {
+
+            var a = parseInt(prompt('Enter First Value : '));
+            var b = parseInt(prompt('Enter Second Value : '));
+
+            const choice = prompt('Enter Your Choice : ');
+
+            switch (choice) {
+
+                case '+':
+                    document.getElementById('print').innerHTML = 'Addition of ' + a + ' & ' + b + ' is : ' + (a + b);
+                    break;
+
+                case '-':
+                    document.getElementById('print').innerHTML = 'Subtraction of ' + a + ' & ' + b + ' is : ' + (a - b);
+                    break;
+
+                case '*':
+                    document.getElementById('print').innerHTML = 'Multiplication of ' + a + ' & ' + b + ' is : ' + (a * b);
+                    break;
+
+                case '/':
+                    document.getElementById('print').innerHTML = 'Division of ' + a + ' & ' + b + ' is : ' + (a / b);
+                    break;
+
+                case '%':
+                    document.getElementById('print').innerHTML = 'Modules of ' + a + ' & ' + b + ' is : ' + (a % b);
+                    break;
+
+                case '++':
+                    document.getElementById('print').innerHTML = 'Increment of ' + a + ' is : ' + (++a);
+                    document.getElementById('print2').innerHTML = 'Increment of ' + b + ' is : ' + (++b);
+                    break;
+
+                case '--':
+                    document.getElementById('print').innerHTML = 'Decrement of ' + a + ' is : ' + (--a);
+                    document.getElementById('print2').innerHTML = 'Decrement of ' + b + ' is : ' + (--b);
+                    break;
+
+            }
+
+        }
+
+
+    </script>
+</body>
+
+</html>
