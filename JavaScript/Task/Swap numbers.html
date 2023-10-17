@@ -1,0 +1,33 @@
+<!-- Task to swap two number without using third variable -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swap Numbers</title>
+</head>
+<body>
+    <script>
+        // take values from user
+        var a = parseInt(prompt('Enter First Value :'));
+        var b = parseInt(prompt('Enter Second Value :'));
+
+        document.write('<-- Value Before Swapping -->'+"<br>");
+
+        // print that value as it is
+        document.write('Value of A is -> ',a +"<br>");
+        document.write('Value of B is -> ',b +"<br><br><br>");
+
+        a = a + b; //a = 5 + 2 -> a=7
+        b = a - b; //b = 7 - 2 -> b=5
+        a = a - b; //a = 7 - 5 -> a=2
+        
+        document.write("<hr>");
+        document.write('<-- Value After Swapping -->'+"<br><br><br>");
+        
+        // Print values after swap
+        document.write('Value of A is -> ',a +"<br>");
+        document.write('Value of B is ->',b);
+    </script>
+</body>
+</html>
