@@ -1,0 +1,101 @@
+body{
+    padding: 0;margin: 0;
+}
+
+.parent{
+    display: flex;
+    position: relative;
+}
+
+.parent .child1 {
+    width: 55%;
+    height: 738px;
+    background-color: #202020;
+}
+
+.parent .child1 .set{
+    width: fit-content;
+    margin-left: 180px;
+    margin-top: 150px;
+}
+
+.parent .child1 .tag {
+    display: flex;
+    width: 587px;
+}
+
+.parent .child1 .tag h1 {
+    width: fit-content;
+    font-size: 36px;
+    letter-spacing: 4px;
+    color: #f4f5f9;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 251px;
+}
+
+.parent .child1 .tag h2 {
+    width: 6px;
+    height: 36px;
+    margin-top: 25px;
+    margin-left: 10px;
+    background-color: #e74c3c;
+}
+
+.parent .child1 .point p {
+
+    width: 587px;
+    height: 74px;
+    font-size: 14px;
+    line-height: 29px;
+    color: #999999;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: right;
+}
+
+.parent .child1 .point h3 {
+    width: 587px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 29px;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: right;
+    margin: 0;
+}
+
+.parent .child2 {
+    width: 45%;
+    height: 738px;
+    background-color: wheat;
+    background-image: url("./Put\ Your\ Image.png");
+    background-size: 100% 100%;
+}
+
+.d{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    outline: 5px solid rgba(255, 255, 255, 0.300);
+}
+
+.d1{
+    left: 53.5%;
+    top: 270px;
+}
+
+.d2{
+    left: 53.5%;
+    top: 390px;
+}
+
+.d3{
+    left: 53.5%;
+    top: 510px;
+}

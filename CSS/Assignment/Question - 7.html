@@ -1,0 +1,55 @@
+<!-- How can image repetition of the backup be controlled? -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 7</title>
+    <style>
+
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: darkgray;
+        }
+
+        span{
+            color: blue;
+            text-decoration: underline 3px dashed black;
+        }
+
+        .bg{
+            height: 600px;
+            width: 100%;
+            background: url('https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+        }
+        
+        .bg:hover{
+            transition: 2s;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            
+        }
+
+        .bg{
+            line-height: 500px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            text-shadow: 0 0 5px black;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Q-7. How can image repetition of the backup be controlled?</h2>
+    <h3> Ans : To control the image Repetition we have a Property name <span>background-repeat: no-repeat;</span> this property stop the image repetition or control the repetition on X,Y axis
+    <br> or, we can use property name <span>background-size:100% 100%;</span> this property set the size of image in the element.</h3>
+
+    <div class="bg">
+        Hover me
+    </div>
+
+
+    
+</body>
+</html>

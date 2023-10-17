@@ -1,0 +1,56 @@
+/* Css of question 24 */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.parent {
+    height: auto !important;
+    width: 100%;
+    border: 3px groove black;
+
+    display: grid;
+
+    grid-template-rows: repeat(2, 350px);
+    grid-template-columns: repeat(3, 25%);
+    gap: 25px;
+
+    justify-content: center;
+}
+
+.parent div {
+    border: 1px solid gray;
+}
+
+.parent .child .thumbnail {
+    height: 57%;
+    background-color: rgb(100, 103, 104);
+}
+
+.parent .child .thumbnail h3 {
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+
+}
+
+.parent .child p {
+    width: 90%;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+.parent .child button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    width: 50px;
+}
+
+.parent .child .bt {
+    margin-left: 5%;
+}
+
+.parent .child span {
+    margin-left: 48%;
+}

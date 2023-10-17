@@ -1,0 +1,177 @@
+/* Css of Question 23 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    height: 100vh;
+    /* border: 1px solid black; */
+
+    background-image: url('Put\ Your\ Image.png');
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    background-color: #222222;
+
+}
+
+/* css of text div  */
+.page .text {
+    position: absolute;
+    width: 100%;
+}
+
+/* text > h1 */
+.page h1 {
+    font-size: 36px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    margin-top: 200px;
+}
+
+/* text > p */
+.page .text p {
+    height: 39px;
+    font-size: 14px;
+    line-height: 29px;
+    color: #f4f5f9;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    margin: 20px;
+}
+
+/* text > dot */
+.page .text .dot {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+
+    margin: auto;
+}
+
+/* text > dot's before after hr's */
+.page .text .dot::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    background-color: white;
+
+    margin: 4px -133px;
+}
+
+.page .text .dot::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    background-color: white;
+
+    margin: 4px 20px;
+}
+
+/* svg wave  */
+.page svg {
+    margin-top: 53.2vh;
+    /* height: 50%; */
+}
+
+/* css of images in wave */
+.page .small {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 3px solid red;
+
+    overflow: hidden;
+
+    position: absolute;
+}
+
+.page .big {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid red;
+    overflow: hidden;
+    position: absolute;
+
+    top: 65vh;
+    left: 35%;
+
+    z-index: 5;
+}
+
+.page div img {
+    height: 100%;
+    width: 100%;
+}
+
+.page .img1 {
+    top: 64.5vh;
+    left: 20%;
+}
+
+.page .img3 {
+    top: 73vh;
+    left: 48%;
+}
+
+.page .img4 {
+    top: 80vh;
+    left: 61%;
+}
+
+.page .img5 {
+    top: 79.5vh;
+    left: 74%;
+}
+
+.page h3,
+h4 {
+    position: absolute;
+}
+
+/* css of h3 (web designer tag line) */
+.page h3 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 81vh;
+    left: 30%;
+}
+
+/* css of h4 (ui/ux designer tag line) */
+.page h4 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 86vh;
+    left: 33%;
+}
+
+.page .vr {
+    position: absolute;
+    
+    opacity: 0.749;
+    width: 2px;
+    height: 107px;
+    background-color: white;
+    /* border: 1px solid #ffffff; */
+
+    top: 67vh; left: 36.7%;
+}
