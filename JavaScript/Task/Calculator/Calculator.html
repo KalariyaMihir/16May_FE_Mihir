@@ -1,0 +1,67 @@
+<!-- Create a Structure of Calculator using HTML & CSS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    <div class="parent">
+        <!-- display of calc -->
+        <input type="text" class="display">
+        <hr>
+
+        <!-- buttons of calc -->
+        <button class="col"><a href="Calculator.html">AC</a></button>
+        <button class="col"><i class="fa-solid fa-delete-left" style="color: #ff7f50;"></i></button>
+        <button class="col">%</button>
+        <button class="col">/</i></button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="col">*</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="col">-</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="col">+</button>
+        <button class="zero">0</button>
+        <button>.</button>
+        <button class="equal">=</button>
+    </div>
+
+    <script>
+        var result = ''; // variable for store the result 
+
+var buttons = document.querySelectorAll("button"); // get the element
+
+var input = document.querySelector("input"); // get the input 
+
+for (i of buttons) 
+{
+    i.addEventListener('click', function (x) {
+        buttonText = x.target.innerText;
+        console.log(buttonText);
+
+        if (buttonText == "=") 
+        {
+            result = eval(result)
+            input.value = result;
+        }
+
+        else 
+        {
+            result += buttonText;
+            input.value = result;
+        }
+    });
+}
+    </script>
+</body>
+</html>
