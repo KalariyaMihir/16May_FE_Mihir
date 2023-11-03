@@ -1,0 +1,66 @@
+<!-- Practice of function in javaScript -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+
+<body>
+    <script>
+        let a = 10, b = 2;
+
+        function add() {
+            var addition = a + b;
+            document.write(`Addition of ${a} and ${b} is : ${addition}` + "<br><hr>");
+        }
+
+        add();
+
+        // ------------------------------------------------------------------
+
+        function sub(a, b) {
+            let subtraction = a - b;
+
+            document.write(`Subtraction of ${a} and ${b} is : ${subtraction}` + "<br> <hr>");
+        }
+
+        sub(8, 6);
+
+        // ------------------------------------------------------------------
+
+        function mul()
+        {
+            alert('"Enter Numeric Value"');
+            let a = parseInt(prompt('Enter First Value : '));
+            let b = parseInt(prompt('Enter Second Value : '));
+
+            let multiplication = a * b;
+
+            return multiplication;
+        }
+
+        if(!isNaN(mul()))
+        {
+            document.write(`Multiplication of ${a} and ${b} is : ${mul()}` + "<br> <hr>");
+        }
+
+        else
+        {
+            document.write("Please enter a Valid Input .");
+        }
+
+        // ------------------------------------------------------------------
+
+        function div(a , b)
+        {
+            return a / b ;
+        }
+
+        document.write(`Divide the ${a} and ${b} is : ` + div(a , b));
+    </script>
+</body>
+
+</html>
