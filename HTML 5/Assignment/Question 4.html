@@ -1,0 +1,69 @@
+<!-- Canvas and SVG tags -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 4</title>
+    <style>
+        canvas{
+            height: 250px;
+            width: 500px;
+            border: 1px solid black;
+        }
+
+        svg{
+            height: 250px; 
+            width: 500px;
+            stroke: orange;
+            stroke-width: 2px;
+            border: 1px solid orange;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <h1>Q.4 -> Canvas and SVG tags</h1>
+    <p>Canvas and SVG both used to create a graphic images or create a graphical structure.</p>
+    <h2>Canvas : </h2>
+    <p>Image's Created using Canvas get's pixelate / blur when we Zoom it.</p>
+    <div class="Canvas">
+        <h1>Canvas Example :</h1>
+
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <hr>
+
+    <h2>SVG : </h2>
+    <p>SVG stands for scalable vector graph. <br>Image's or Structure created by Svg doesn't get pixelate / blur when we zoom it. <br> For this reason image using svg looks better used more.</p>
+
+    <h1>SVG Example :</h1>
+    <svg>
+        <line x1="0" y1="200" x2="500" y2="250"> </line>
+        <line x1="0" y1="50" x2="500" y2="150"> </line>
+        <line x1="0" y1="100" x2="500" y2="400"> </line>
+        <line x1="0" y1="250" x2="400" y2="0"> </line>
+    </svg>
+
+</body>
+
+    <script>
+
+        // for canvas
+        var canvas = document.getElementById('canvas');
+        var context = canvas.getContext('2d');
+        console.log(context);
+        context.fillstyle = "#FF0000";
+        context.strokeRect(100,10,100,130);
+
+        // *************************************************************************************************
+        
+        // for SVG
+        
+        
+    </script>
+
+
+</html>
