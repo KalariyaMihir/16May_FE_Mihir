@@ -12,20 +12,29 @@
             background-color: gray;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
+
+        span{
+            color: navy;
+            font-weight: 600;
+        }
     </style>
 
 </head>
 <body>
     <h1>Q.2 -> How to embed audio and video in a webpage?</h1>
     <p>Ans ->
-        <p>To embed Audio Video Tag we use Audio and video tag with attributes like controls ,mute and others and source element src attribute. </p>
+        <p>To embed Audio / Video Tag we use Audio and video tag. <br>
+        Attributes of Audio Tag : <span>autoplay</span>, <span>controls</span>, <span>muted</span>, <span>loop</span> <br>
+        Attributes of Video Tag : <span>autoplay</span>, <span>controls</span>, <span>muted</span>, <span>loop</span>, <span>height</span>, <span>Width</span> <br>
+        Applied link / path of audio/video file in src attribute of source element.  
+        </p>
 
         <hr>
 
         <p>
             Audio Tag : <br><br>
 
-            <audio controls muted loop>
+            <audio autoplay controls muted loop >
                 <source src="_Ram Siya Ram_320(PagalWorld.com.pe).mp3">
             </audio>
         </p>
