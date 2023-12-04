@@ -1,0 +1,65 @@
+<!-- write a code which can give grades to students according to their scores.
+90 - 100 = A 
+80 - 89 = B
+70 - 79 = C
+60 - 69 = D
+50 - 34 = F -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 2</title>
+</head>
+<body>
+    <script>
+        let input = prompt("Enter Your Marks :");
+        let grade;
+
+        if( input >= 35)
+        {
+            console.log("Pass");
+            
+            if(input >= 90 && input <= 100)
+            {
+                grade = 'A';
+            }
+
+            else if(input >= 80 && input <= 89)
+            {
+                grade = 'B';
+            }
+
+            else if(input >= 70 && input <= 79)
+            {
+                grade = 'C';
+            }
+
+            else if(input >= 60 && input <= 69)
+            {
+                grade = 'D';
+            }
+
+            else if(input >= 50 && input <= 59)
+            {
+                grade = 'E';
+            }
+
+            else
+            {
+                grade = 'Fail';
+            }
+            
+            console.log("Your Grade is ",grade);
+        }
+
+        else
+        {
+            console.log("Fail");
+        }
+
+
+    </script>
+</body>
+</html>
