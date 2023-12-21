@@ -1,0 +1,42 @@
+<!-- Event bubbling tickling example -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 4</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            $("input").parents().css
+            ({
+                'border-color' : "red"
+            })
+        })
+    </script>
+
+    <style>
+        div{
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Event bubbling tickling example</h1>
+    <div>
+        body
+        <div>
+            div
+            <div>
+                ul
+                <div>
+                    li
+                    <input type="text" placeholder="span">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
