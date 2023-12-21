@@ -1,0 +1,30 @@
+<!-- Write the code for adding new elements dynamically? -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 6</title>
+    <style>
+        div{
+            height: 20px; width: 200px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <script>
+        function add()
+        {
+            var create = document.createElement('div');
+            create.innerHTML=("New Div Created");
+            document.body.appendChild(create);
+        }
+    </script>
+</head>
+<body>
+    <h1>• Write the code for adding new elements dynamically?</h1>
+    <pre></pre>
+
+    <button onclick="add()">Add Element</button>
+</body>
+</html>

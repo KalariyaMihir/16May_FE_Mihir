@@ -1,0 +1,78 @@
+<!-- Create basic math operation in JS -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 20</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+    <section>
+        <h2>Maths Operations</h2>
+
+        <label for="Enter 1st Number :">Enter 1st Number &nbsp;:</label> <input type="text"  id="first_value">
+        <!-- <br> -->
+        <label for="Enter 2nd number :">Enter 2nd Number :</label> <input type="text" id="second_value">
+
+        <div class="parent">
+            <div class="child">
+                <button onclick="add()">+</button>
+                <button onclick="sub()">-</button>
+                <button onclick="mul()">*</button> 
+                <button onclick="div()">/</button>
+                <button onclick="mod()">%</button>
+            </div>
+
+            <div class="child">
+                Answer is : <span id="answer"></span>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let fn = document.getElementById("first_value");
+        let sn = document.getElementById("second_value");
+        let ans = document.getElementById("answer")
+    
+        function add()
+        {
+            ans.value = parseInt(fn.value) + parseInt(sn.value);
+            document.getElementById("answer").innerHTML = (parseInt(ans.value));
+        }
+
+        function sub()
+        {
+            ans.value = parseInt(fn.value) - parseInt(sn.value);
+            document.getElementById("answer").innerHTML = (parseInt(ans.value));
+        }
+
+        function mul()
+        {
+            ans.value = parseInt(fn.value) * parseInt(sn.value);
+            document.getElementById("answer").innerHTML = (parseInt(ans.value));
+        }
+
+        function div()
+        {
+            ans.value = parseInt(fn.value) / parseInt(sn.value);
+            document.getElementById("answer").innerHTML = (parseInt(ans.value));
+        }
+
+        function mod()
+        {
+            ans.value = parseInt(fn.value) % parseInt(sn.value);
+            document.getElementById("answer").innerHTML = (parseInt(ans.value));
+        }
+
+    </script>
+
+</body>
+
+</html>

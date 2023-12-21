@@ -1,0 +1,52 @@
+/* css of question 19 */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span{
+    color: blue;
+}
+
+section{
+    width: 30%;
+    border: 2px solid black;
+    margin: 210px auto;
+    padding-bottom: 20px;
+}
+
+section h2{
+    text-align: center;
+}
+
+section label{
+    margin-left: 7%;
+}
+
+section input{
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+section .parent {
+    display: flex;
+}
+
+section .parent .child:nth-child(1){
+    /* border: red 1px solid; */
+    width: 210px;
+    margin-left: 7%;
+}
+
+section .parent .child button{
+    width: 55px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight:700;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+section .parent .child:nth-child(2){
+    margin-left: 7%;
+    margin-top: 20px;
+}

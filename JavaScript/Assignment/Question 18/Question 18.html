@@ -1,0 +1,41 @@
+<!-- Question 18 of JS assignments -->
+<!-- Create password field with show hide functionalities -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 18</title>
+    <script>
+        function visibility()
+        {
+            let password = document.getElementById("pass");
+
+            if(password.type == "password")
+            {
+                password.type = "text";
+            }
+
+            else
+            {
+                password.type = "password";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div>
+
+        <label for="Emial">Enter Your Username / EMail : </label>
+        <input type="email"><br><br>
+        <label for="Enter Password :">Enter Password :</label>
+        <input type="password" id="pass" minlength="6" maxlength="8" pattern="{a-z, A-Z, _ ,0-9}">
+
+        <br><br>
+
+        <input type="checkbox" onclick="visibility()"> <label for="Show Password">Show Password</label>
+
+            
+    </div>
+</body>
+</html>

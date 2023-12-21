@@ -1,0 +1,121 @@
+<!-- Question 20 of assignments -->
+<!-- Create result -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 20</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h3>Marksheet for Information Technology</h3>
+        <h4>Enter Marks</h4>
+
+        <table cellspacing="10px">
+            <tr>
+                <td>
+                    <label for="C Language">C Language</label> 
+                </td>
+
+                <td>
+                    <input type="text" id="m1"> <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="C++ Language">C++ Language</label> 
+                </td>
+
+                <td>
+                    <input type="text" id="m2"> <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Database">Database</label> 
+                </td>
+
+                <td>
+                    <input type="text" id="m3"> <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="HTML">HTML</label> 
+                </td>
+
+                <td>
+                    <input type="text" id="m4"> <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="CSS">CSS</label>
+                </td>
+
+                <td>
+                    <input type="text" id="m5"> <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="php">php</label>
+                </td>
+
+                <td>
+                    <input type="text" id="m6"> <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Core Java">Core Java </label>
+                </td>
+
+                <td>
+                    <input type="text" id="m7">
+                </td>
+            </tr>
+        </table>
+        
+        <button onclick="calculate()">Result</button>
+
+        <h2>Total is : <span id="total_mark"></span> / 350</h2>  
+
+        <h2>Percentage is : <span id="Percentage"></span> %</h2>
+    </div>
+
+
+    <script>
+
+        var mark1 = document.getElementById('m1');
+        var mark2 = document.getElementById('m2');
+        var mark3 = document.getElementById('m3');
+        var mark4 = document.getElementById('m4');
+        var mark5 = document.getElementById('m5');
+        var mark6 = document.getElementById('m6');
+        var mark7 = document.getElementById('m7');
+        var total = document.getElementById('total_mark');
+        var pr = document.getElementById('Percentage');
+
+        function calculate()
+        {
+            total.value = parseInt(mark1.value) + parseInt(mark2.value) + parseInt(mark3.value) + parseInt(mark4.value) + parseInt(mark5.value) + parseInt(mark6.value) + parseInt(mark7.value) ;
+            document.getElementById('total_mark').innerHTML = (total.value);  
+
+            pr.value = total.value / 350 * 100;
+            document.getElementById('Percentage').innerHTML = parseInt(pr.value);
+
+        }
+
+    </script>
+</body>
+</html>
