@@ -1,0 +1,234 @@
+
+@media(max-width:900px) and (min-width:500px)
+{
+
+    .content{
+        /* border: 3px groove black; */
+        height: auto;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        gap: 7px;
+
+
+        grid-template-rows: repeat(7,200px);
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+
+    .content .i1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .content .i2{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .content .i3{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .content .i4{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .content .i5{
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .content .i6{
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .content .i7{
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .content .i8{
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .content .i9{
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .content .i0{
+        grid-row-start: 7;
+        grid-row-end: 8;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    body{
+        flex-wrap: wrap-reverse;
+    }
+
+    .aside{
+        width: 100%;
+        text-align: left;
+    }
+
+    .aside .section{
+        padding: 0;
+    }
+
+    .aside h2{
+        text-align: center;
+        margin: 10px;
+    }
+
+    .aside ul{
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+    .aside ul{
+        margin: 0% ;
+        padding: 0;
+    }
+
+    .aside h3{
+        text-align: center;
+    }
+
+    
+}
+
+/* -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- */
+
+@media (max-width : 500px)
+{
+    
+    
+    .content{
+        /* border: 3px groove black; */
+        height: auto;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        gap: 7px;
+
+
+        grid-template-rows: repeat(10,200px);
+        grid-template-columns: 1fr;
+
+        justify-items: center;
+    }
+
+    .content .i1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .content .i2{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .content .i3{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .content .i4{
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .content .i5{
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .content .i6{
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .content .i7{
+        grid-row-start: 7;
+        grid-row-end: 8;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .content .i8{
+        grid-row-start: 8;
+        grid-row-end: 9;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .content .i9{
+        grid-row-start: 9;
+        grid-row-end: 10;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .content .i0{
+        grid-row-start: 10;
+        grid-row-end: 11;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    body{
+        flex-wrap: wrap-reverse;
+    }
+
+    .aside{
+        width: 100%;
+        text-align: left;
+    }
+
+    .aside .section{
+        padding: 10px;
+    }
+    .aside ul{
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
