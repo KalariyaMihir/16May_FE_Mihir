@@ -1,0 +1,1160 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header starts here */
+
+header .bar .bar-line{
+    display: none;
+}
+
+header .bar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+/* company logo css */
+
+header .logo {
+    display: flex;
+    margin-top: -8px;
+}
+
+header .logo .txt {
+    color: #1D2830;
+    font-family: Josefin sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 100% */
+    letter-spacing: -1.44px;
+}
+
+header .logo .dot {
+    color: #794CFF;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -1.44px;
+}
+
+/* Menu item css */
+
+header .menu {
+    display: flex;
+    margin-right: 100px;
+    /* width: 100%; */
+}
+
+header .menu .items {
+    margin-top: 15px;
+
+    color: #35414B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 40px;
+    /* 100% */
+}
+
+/* Log in css */
+
+header .log-in {
+    display: flex;
+}
+
+header .log-in .items {
+    color: #35414B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 15px;
+    margin-right: 20px;
+    /* 100% */
+}
+
+header button {
+    width: 169px;
+    height: 48px;
+    border-radius: 4px;
+    background: #ECE5FF;
+
+    color: #794CFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border: none;
+    /* 100% */
+}
+
+.menu_text{
+ display: none;       
+}
+
+/* header ends here */
+
+/* ---------------------------------------------------------------------------- */
+
+.discount {
+    border-radius: 100px ;
+    background: #F2F9EB;
+    width: 259px;
+    height: 32px;
+
+    color: #35414B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 100% */
+
+    margin: 200px auto  0 auto;
+}
+
+.discount span {
+    border-radius: 100px;
+    background: #81C43B;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 6px;
+    /* 100% */
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* section intro starts here */
+
+/* css of h1 -> manage the team... */
+
+
+.intro h1 {
+    width: 760px;
+    margin: 20px auto 0;
+
+    color: #35414B;
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    /* 112.5% */
+}
+
+.intro p {
+    width: 505px;
+    margin: 15px auto;
+
+    color: #4E5A65;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+
+
+.intro input {
+    height: 52px;
+    width: 319px;
+
+    padding: 0;
+    margin-left: 34%;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid #E1E5EA;
+    background: #FFF;
+
+    color: #97A5B5;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 100% */
+}
+
+.intro button {
+    width: 164px;
+    height: 52px;
+
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid #794CFF;
+    background: #794CFF;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 100% */
+}
+
+/* section intro css ends here */
+
+/* ---------------------------------------------------------------------------- */
+
+/* section graph-image css starts here */
+
+.graph-image {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.graph-image img {
+    width: 920px;
+    height: 654px;
+}
+
+/* section graph-image css ends here */
+
+/* ---------------------------------------------------------------------------- */
+
+/* section .team-logo starts here */
+
+.team-logo {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.team-logo p {
+    color: #4E5A65;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 100% */
+}
+
+.team-logo span {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.team-logo svg {
+    margin: 10px 75px;
+}
+
+/* section .team-logo starts here */
+
+/* ---------------------------------------------------------------------------- */
+
+/* section problem-issue starts here */
+
+.problem-issue {
+    border: 1px dashed #F0EBFA;
+    background: #FBFAFE;
+    height: 85vh;
+
+    display: flex;
+}
+
+.problem-issue .problem {
+    width: 60%;
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.problem-issue .problem .timeline {
+    width: 394px;
+    height: 467px;
+    margin-top: 61px;
+    margin-left: 198px;
+
+    border-radius: 4px;
+    border: 1px solid #E1E5EA;
+    background: #FFF;
+
+    overflow: hidden;
+}
+
+.problem-issue .problem .timeline h3 {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 100% */
+
+    margin-left: 33px;
+}
+
+.problem-issue .problem .timeline .bg-name {
+    display: flex;
+}
+
+.problem-issue .problem .timeline .bg-message {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #FDF8E8;
+    margin-left: 30px;
+}
+
+.problem-issue .problem .timeline .bg-message2 {
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+.problem-issue .problem .timeline .bg-message2 .bg-spn1 {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    /* 100% */
+}
+
+.problem-issue .problem .timeline .bg-message2 .bg-spn2 {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    /* 100% */
+}
+
+.problem-issue .problem .timeline .tweets {
+    display: flex;
+}
+
+.problem-issue .problem .timeline .tweets .vr {
+    height: 255px;
+    width: 0.5px;
+    background: #E1E5EA;
+
+    margin: 10px 30px 10px 48px;
+}
+
+.problem-issue .problem .timeline .tweets .comments {
+    margin-top: 10px;
+}
+
+
+.problem-issue .problem .timeline .tweets .cmnts {
+    width: 286px;
+    height: 64px;
+
+    border-radius: 4px;
+    border: 1px solid #E1E5EA;
+    background: #FFF;
+    margin-top: 10px;
+}
+
+.problem-issue .problem .timeline .tweets .cmnts span {
+    color: #3B7FF6;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 123.077% */
+}
+
+.problem-issue .problem .timeline .tweets .cmnts p {
+
+    width: 254px;
+    margin: 16px;
+
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.problem-issue .problem .comment-box {
+    height: 363px;
+    width: 362px;
+
+    border-radius: 4px;
+    border: 1px solid #E1E5EA;
+    background: #FFF;
+
+    position: absolute;
+    top: 145px;
+    left: 497px;
+
+
+}
+
+.problem-issue .problem .comment-box .id {
+    display: flex;
+    margin: 30px;
+}
+
+/* css of comment box > id > .dp-img */
+.problem-issue .problem .comment-box .dp-img {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    border: 1px solid #E1E5EA;
+    margin-right: 10px;
+}
+
+/* css of comment box > id > name > h3 */
+.problem-issue .problem .comment-box .name h3 {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    /* 100% */
+
+    margin: 0;
+    padding: 0;
+}
+
+/* css of comment box > id > name > h4 */
+.problem-issue .problem .comment-box .name h4 {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    /* 100% */
+
+    margin: 0;
+    padding-top: 5px;
+}
+
+/* css of comment box > comment */
+.problem-issue .problem .comment-box .comment {
+    height: 195px;
+    width: 299px;
+
+    margin-left: 32px;
+    border-radius: 4px;
+    border: 1px solid #E1E5EA;
+    background: #FFF;
+}
+
+/* css of comment box > comment > p */
+.problem-issue .problem .comment-box .comment p {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+    width: 246px;
+    height: 60px;
+    margin-left: 16px;
+}
+
+/* css of comment box > comment > span */
+.problem-issue .problem .comment-box .comment p span {
+    color: #3B7FF6;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 153.846% */
+}
+
+/* css of comment box's send button */
+.problem-issue .problem .comment-box button {
+    border-radius: 4px;
+    background: #3B7FF6;
+    border: none;
+    margin-top: 15px;
+    margin-left: 240px;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    /* 100% */
+
+    height: 42px;
+    width: 90px;
+}
+
+/* ********************************* */
+
+/* section problem issue > points css starts here */
+
+.problem-issue .points {
+    width: 372px;
+    /* border: 1px solid black; */
+    margin-top: 55px;
+}
+
+.problem-issue .points .fpnt {
+    display: flex;
+
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid #F6F3FC;
+    background: #F6F3FC;
+}
+
+.problem-issue .points .fpnt .border {
+    width: 8px;
+    height: 128px;
+    background: #794CFF;
+}
+
+.problem-issue .points .fpnt .text{
+    padding-left: 15px;
+}
+
+.problem-issue .points .fpnt .text h3 {
+    color: #35414B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 100% */
+}
+
+.problem-issue .points .fpnt .text p {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+
+    width: 308px;
+}
+
+.problem-issue .points .pnt h3 {
+    color: #35414B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 100% */
+}
+
+.problem-issue .points .pnt p {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+
+    width: 308px;
+}
+
+.problem-issue .points hr {
+    background-color: #F0EBFA;
+    width: 372px;
+    height: 1px;
+
+    border: none;
+}
+
+/* problem-issue section ends here */
+
+/* ---------------------------------------------------------------------------- */
+
+/* service section starts here */
+
+.services h1 {
+    color: #35414B;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 100% */
+
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.services .grid .sec {
+    width: 60%;
+    /* border: 1px groove black; */
+
+}
+
+.services .grid {
+    height: auto;
+    width: 100%;
+    display: grid;
+    /* border: 1px groove black; */
+
+    gap: 5px;
+
+    grid-template-rows: repeat(2, 250px);
+    grid-template-columns: repeat(3, 1fr);
+
+    justify-items: center;
+
+}
+
+/* grid's css */
+
+.services .grid .sec .svg-bg {
+    width: 60px;
+    height: 60px;
+    background-color: #FEF6EE;
+
+    border-radius: 50%;
+}
+
+.services .grid .sec .svg-bg svg {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+/* css of services > grid > s-1 > p */
+
+.services .grid .sec p {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+
+    width: 100%;
+    height: 48px;
+}
+
+/* css for all services > grid > sec > h3 */
+.services .grid .sec h3 {
+    color: #35414B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 100% */
+}
+
+/* css of service > grid > s-4 */
+/* css of services > grid > s-4 > svg-bg */
+
+.services .grid .s-4 .svg-bg {
+    background-color: #FFEFF3;
+}
+
+/* css of service > grid > s-5 */
+/* css of services > grid > s-5 > svg-bg */
+
+.services .grid .s-5 .svg-bg {
+    background-color: #EDE8F7;
+}
+
+.services .grid button {
+    display: none;
+}
+
+/* services section ends here */
+
+/* ---------------------------------------------------------------------------- */
+
+/* graph section starts here */
+
+.graph {
+    height: auto;
+
+    border: 1px solid #F0EBFA;
+    background: #FBFAFE;
+
+    display: flex;
+}
+
+/* graph info starts here */
+
+.graph .info {
+    width: 45%;
+    /* border: 1px solid black; */
+}
+
+.graph .info h1 {
+    color: #35414B;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    /* 120% */
+
+    width: 341px;
+    margin-left: 196px;
+    margin-top: 40vh;
+}
+
+
+.graph .info p {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+
+    width: 413px;
+    margin-left: 196px;
+}
+
+.graph .info button {
+    width: 164px;
+    height: 52px;
+    margin-left: 196px;
+
+    border-radius: 4px;
+    background: #796EFF;
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 100% */
+}
+
+/* *************************************************** */
+/* css of graph starts here */
+
+/* graphs starts here */
+.graphs {
+    width: 55%;
+    /* border: 1px solid black; */
+    position: relative;
+
+}
+
+.graphs .g-1 {
+    width: 472.71px;
+    height: 355.37px;
+    border-radius: 4px;
+    border: 1px solid #E1E5EA;
+    background: #FFF;
+
+    margin: 20% 10%;
+    position: relative;
+
+}
+
+.graph .graphs .g-1 h1 {
+    color: #35414B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 100% */
+
+    margin-left: 24px;
+}
+
+.graph .graphs .g-1 h2 {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    /* 100% */
+
+    margin: 20px;
+}
+
+.graph .graphs .g-1 .dashed {
+    border: 1px dashed #E1E5EA;
+}
+
+.graph .graphs .g-1 .solid {
+    border: 1px solid #E1E5EA;
+}
+
+.graph .graphs .g-1 .months {
+    display: flex;
+}
+
+.graph .graphs .g-1 .months h3:nth-child(1) {
+    margin-left: 78px;
+}
+
+.graph .graphs .g-1 .months h3 {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    /* 100% */
+
+    margin-left: 50px;
+}
+
+/* bars */
+
+.graph .graphs .g-1 .bars {
+    position: absolute;
+    top: 78px;
+}
+
+.graph .graphs .g-1 .bars svg:nth-child(1) {
+    margin-left: 78px;
+}
+
+.graph .graphs .g-1 .bars svg {
+    margin-left: 42px;
+}
+
+/* ***************************** */
+
+/* second graphs css */
+
+.graph .graphs .g-2 {
+    width: 235px;
+    height: 265px;
+    border-radius: 4px;
+    border: 1px solid #E1E5EA;
+    background: #FFF;
+    position: absolute;
+    top: 40%;
+    left: 56%;
+}
+
+.graph .graphs .g-2 h1 {
+    color: #35414B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 133.333% */
+
+    text-align: center;
+    margin: 30px auto ;
+}
+
+.graph .graphs .g-2 .bars .number {
+    position: relative;
+}
+
+.graph .graphs .g-2 .bars .number .num {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 8px;
+    /* 100% */
+
+    position: absolute;
+}
+
+.graph .graphs .g-2 .bars .number .n1 {
+    top: 25px;
+    left: 10.5%;
+}
+
+.graph .graphs .g-2 .bars .number .n2 {
+    top: 12px;
+    left: 29%;
+    color: #5FCB79;
+}
+
+.graph .graphs .g-2 .bars .number .n3 {
+    top: 50px;
+    left: 47.5%;
+}
+
+.graph .graphs .g-2 .bars .number .n4 {
+    top: 35px;
+    left: 65.5%;
+}
+
+.graph .graphs .g-2 .bars .number .n5 {
+    top: 58px;
+    left: 84%;
+}
+
+.graph .graphs .g-2 .bars svg {
+    margin-left: 9.4%;
+    margin-top: 30px;
+}
+
+.graph .graphs .g-2 .months {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8px;
+    /* 100% */
+
+    display: flex;
+}
+
+.graph .graphs .g-2 .months h3:nth-child(1) {
+    margin-left: 10%;
+}
+
+.graph .graphs .g-2 .months h3 {
+    margin-left: 11.2%;
+}
+
+/* graph section ends here */
+
+/* ---------------------------------------------------------------------------- */
+
+/* css of about starts here */
+
+.about h1 {
+    color: #35414B;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    /* 120% */
+
+    width: 394px;
+    margin: 100px auto 43px auto;
+}
+
+.about p {
+    color: #4E5A65;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 177.778% */
+
+    width: 543px;
+    margin: auto;
+}
+
+/* ************************** */
+
+.about .team {
+    margin: 48px auto;
+    width: 70%;
+}
+
+.about .team .members {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about .team .border {
+    width: 264px;
+    height: 4px;
+    background: #35414B;
+    flex-wrap: wrap;
+}
+
+.about .team .member .info {
+    display: flex;
+    margin: 20px auto auto 10px;
+}
+
+.about .team .member .info .image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto 10px;
+}
+
+.about .team .member .info .txt h2 {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    /* 100% */
+    margin: 5px auto;
+}
+
+.about .team .member .info .txt h3 {
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 100% */
+    margin: auto;
+}
+
+/* advertise part */
+.about .ad {
+    width: 70%;
+    height: 224px;
+
+    border-radius: 16px;
+    background: #796EFF;
+    margin: 100px auto;
+
+    display: flex;
+}
+
+.about .ad h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    /* 150% */
+    width: 423px;
+    margin: 60px 80px;
+}
+
+.about .ad .app-svgs {
+    margin-top: 85px;
+}
+
+.about .ad .app-svgs svg {
+    margin-left: 24px;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* footer starts here */
+
+footer {
+    height: auto;
+    background: #1D2830;
+}
+
+footer .lists {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .sec ul {
+    color: #FFF;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    /* 100% */
+    margin: 60px auto;
+}
+
+footer .sec ul li {
+    color: #FFF;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 100% */
+
+    list-style: none;
+    margin: 30px auto;
+}
+
+footer .sec ul svg{
+    display: none;
+}
+
+footer .s4 h3 {
+    color: var(--text-gray-100, #F4F5F7);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    /* 100% */
+
+    margin: 60px auto 30px auto;
+}
+
+footer .s4 svg {
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+footer .copyright {
+    display: flex;
+}
+
+footer .copyright p {
+    width: 50%;
+    margin: 30px 0 0 15%;
+
+    color: var(--text-gray-300, #D9DBE1);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 100% */
+}
+
+footer .copyright .img {
+    margin-left: 8%;
+}
+
+footer .copyright .img svg {
+    margin: 20px 10px;
+}

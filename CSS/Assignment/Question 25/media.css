@@ -1,0 +1,581 @@
+/* Css for mobile view */
+@media(max-width:500px) {
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    /* css for header starts */
+
+    header{
+        justify-content: space-between;
+    }
+
+    header .logo{
+        margin-left: 5%;
+    }
+
+    /* css of bar */
+    header .bar{
+        flex-wrap: wrap;
+        margin-right: 5%;
+        width: fit-content;
+        text-align: right;
+    }
+
+    header .bar:hover .menu {
+        display: block;
+        width: fit-content;
+        margin-left: 27%;
+        position: absolute;
+        top: 60px; left: 35%;
+    }
+
+    header .bar .bar-line{
+        display: inline;
+        margin-top: 10px;
+        width:100%;
+    }
+    
+    header .bar:hover .bar-line{
+        margin-left: 5%;
+        /* margin-right: 0; */
+    }
+
+    
+    /* ************************ */
+    
+    /* css of header menu */
+    header .menu {
+        display: none;
+        margin-right: 0;
+    }
+
+    header .menu .items{
+        background-color: #ECE5FF;
+        padding: 9px;
+        margin-top: 1px;
+        border-radius: 1px;
+    }
+
+    header .menu .items:hover{
+        background-color: #7259FA;
+        color: white;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    /* css of header login , button's */
+    header .log-in {
+        display: none;
+    }
+
+
+    /* *************************** */
+
+    header .bar .log-in button{
+        display: none;
+    }
+
+    /* *************************** */
+
+    .menu_text{
+        /* flex-wrap: wrap; */
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu_text p{
+        margin: 0;
+        padding: 0;
+        margin-top: -20px;   
+        margin-left: 90%;
+        font-family: inter;
+        font-size: 8px;
+    }
+    
+
+    /* -------------------------------------------------------------------- */
+
+
+    /* css of discount */
+    .discount {
+        width: fit-content;
+        margin-top: 20px;
+    }
+
+    .discount svg {
+        display: inline;
+    }
+
+    .discount span {
+        display: none;
+    }
+
+    .discount:hover span {
+        display: inline;
+    }
+
+
+
+
+    /* -------------------------------------------------------------------- */
+
+
+    /* css of intro */
+
+    .intro h1 {
+        width: 318px;
+
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .intro p {
+        width: 318px;
+    }
+
+    .intro input {
+        margin-left: 17%;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .intro button {
+        margin-left: 17%;
+        border-radius: 4px;
+        text-align: center;
+
+        margin-top: 10px;
+        width: 319px;
+    }
+
+
+    /* -------------------------------------------------------------------- */
+
+
+    /* css of graph image */
+
+    .graph-image img {
+        height: 300px;
+        width: 90%;
+    }
+
+
+    /* -------------------------------------------------------------------- */
+
+
+    /* css of team logo */
+
+    .team-logo {
+        margin-top: 60px;
+
+        flex-wrap: wrap;
+    }
+
+    .team-logo p {
+        /* width: 318px; */
+        font-size: 11px;
+        line-height: 11px;
+    }
+
+    .team-logo svg {
+        margin: 10px 10px 60px 10px;
+        width: 60px;
+        height: 20px;
+    }
+
+    /* -------------------------------------------------------------------- */
+
+
+    /* css of problem -issue starts here */
+
+    .problem-issue {
+        height: 165vh;
+        flex-wrap: wrap;
+    }
+
+    .problem-issue .problem {
+        width: 100%;
+    }
+
+    .problem-issue .problem .timeline {
+        margin-left: 10%;
+    }
+
+    .problem-issue .problem .comment-box .id {
+        margin: 20px 20px;
+    }
+
+    .problem-issue .problem .comment-box {
+        left: 43%;
+        top: 300px;
+        height: 270px;
+        width: 250px;
+    }
+
+    .problem-issue .problem .comment-box .comment {
+        width: auto;
+        height: 120px;
+        margin: auto 10px;
+    }
+
+    .problem-issue .problem .comment-box .comment p {
+        width: auto;
+    }
+
+    .problem-issue .problem .comment-box button {
+        margin-left: 160px;
+        height: 32px;
+        width: 80px;
+
+        font-size: 12px;
+    }
+
+    /* ****************************************** */
+
+    .problem-issue .points {
+        width: 90%;
+        margin-left: 5%;
+
+        margin-top: 90px;
+        text-align: center;
+    }
+
+    .problem-issue .points .fpnt .text p {
+        width: 100%;
+    }
+
+    .problem-issue .points .pnt p {
+        width: 100%;
+    }
+
+    .problem-issue .points .fpnt {
+        flex-wrap: wrap;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .problem-issue .points .fpnt .border {
+        position: absolute;
+        width: 100%;
+        height: 8px;
+        top: 95%;
+    }
+
+    .problem-issue .points hr {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+
+    /* -------------------------------------------------------------------- */
+
+
+    /* css of services starts here */
+
+    .services {
+        height: auto;
+    }
+
+    .services h1 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 18px;
+        /* 100% */
+    }
+
+    .services .grid {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+        text-align: center;
+    }
+
+    .services .grid .sec .svg-bg {
+        margin-left: 40%;
+    }
+
+    .services .grid .sec .svg-bg svg {
+        margin-left: 4px;
+    }
+
+    .services .grid button {
+        width: 318px;
+        height: 52px;
+        border-radius: 4px;
+        border: 1px solid #ECE5FF;
+        background: #ECE5FF;
+        margin-bottom: 80px;
+
+        color: #7259FA;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+
+        display: block;
+    }
+
+    .services .grid .s-4,
+    .s-5,
+    .s-6 {
+        display: none;
+    }
+
+
+    /* -------------------------------------------------------------------- */
+
+
+    /* css of graph starts */
+
+    .graph {
+        flex-wrap: wrap-reverse;
+    }
+
+    .graph .info {
+        width: 100%;
+    }
+
+    .graph .info h1 {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .graph .info p {
+        margin: 10px auto;
+        width: 322px;
+    }
+
+    .graph .info button {
+        width: 318px;
+        margin: auto 17% 50px;
+    }
+
+
+    /* ************************************************ */
+
+    .graphs {
+        width: 100%;
+    }
+
+    .graphs .g-1 {
+        width: 290px;
+        height: 300px;
+        margin-left: 15px;
+    }
+
+    .graph .graphs .g-1 .bars svg {
+        margin-left: 15px;
+    }
+
+    .graph .graphs .g-1 .months h3 {
+        margin-left: 25px;
+    }
+
+    .graph .graphs .g-2 {
+        width: 190px;
+        height: 210px;
+        top: 50%;
+        left: 58%;
+    }
+
+    .graph .graphs .g-2 h1 {
+        margin: 10px auto;
+    }
+
+    .graph .graphs .g-2 .bars .number .n1 {
+        left: 10%;
+    }
+
+    .graph .graphs .g-2 .bars .number .n2 {
+        left: 29%;
+    }
+
+    .graph .graphs .g-2 .bars .number .n3 {
+        left: 48%;
+    }
+
+    .graph .graphs .g-2 .bars .number .n4 {
+        left: 68%;
+    }
+
+    .graph .graphs .g-2 .bars .number .n5 {
+        left: 87%;
+    }
+
+    .graph .graphs .g-2 .bars svg {
+        margin-left: 8.2%;
+    }
+
+
+    /* -------------------------------------------------------------------- */
+
+
+    /* css of about starts here */
+
+    .about h1 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 50px ;
+    }
+
+    .about p {
+        width: 336px;
+    }
+
+    /* *************** */
+
+    .about .team .border {
+        display: none;
+    }
+
+    .about .team .members .other-member {
+        display: none;
+    }
+
+    .about .team .members {
+        flex-wrap: wrap;
+    }
+
+    .about .team .member {
+        width: 100%;
+    }
+
+    .about .team .members .info {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .about .team .member .info .image {
+        margin: auto;
+    }
+
+    .about .team .member .txt {
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+
+    /* -------------------------------------------------------------------- */
+
+
+    /* css of ad starts here */
+
+    .about .ad {
+        width: 100%;
+        height: auto;
+
+        margin: 100px auto 50px auto;
+
+        border-radius: 0;
+        flex-wrap: wrap;
+    }
+
+    .about .ad h3 {
+        width: 322px;
+
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        line-height: 32px;
+
+        margin: 20px auto 0 auto ;
+
+    }
+
+    .about .ad .app-svgs{
+        margin: 0 auto;
+    }
+
+    .about .ad svg{
+        display: block;
+        margin: 20px;
+    }
+
+    
+    /* -------------------------------------------------------------------- */
+
+
+    /* css of footer */
+
+    footer .lists .sec ul li{
+        display: none;
+    }
+
+    footer .lists {
+        flex-wrap: wrap;
+    }
+
+    footer .lists .s1{
+        margin-top: 40px;
+    }
+
+    footer .sec {
+        height: auto;
+        width: 100%;
+    }
+    
+    footer .sec ul{
+        margin: 20px 7%;
+        font-size: 20px;
+        font-weight: 500;
+    } 
+
+    footer .sec ul svg{
+        display: inline-block;
+    }
+
+    footer .s1 ul svg{
+        margin-left: 60%;
+    }
+
+    footer .s2 ul svg{
+        margin-left: 63.5%;
+    }
+
+    footer .s3 ul svg{
+        margin-left: 70%;
+    }
+
+    footer .lists .sec ul:hover li{
+        display: block;
+    }
+
+    footer .lists .sec li{
+        margin: 20px;
+    }
+
+    footer .lists .s4{
+        margin: 20px 15%;
+    }
+    
+    footer .lists .s4 h3{
+        margin: 0 auto 40px auto;
+        letter-spacing: 1px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    /* ********************************************************* */
+
+    footer .copyright .img{
+        display: none;
+    }
+
+    footer .copyright p{
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 25px;
+    }
+}
