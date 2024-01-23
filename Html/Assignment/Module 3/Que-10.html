@@ -1,0 +1,85 @@
+<!-- How can we club two or more rows or columns into a single row or column in an HTML table? With Example. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question - 10</title>
+    <style>
+        body{background-color: wheat; color: black;}
+    </style>
+</head>
+
+<body>
+    <h1><b>Q-10. How can we club two or more rows or columns into a single row or column in an HTML table? With Example.</b></h1>
+    <br>
+    <h3><b><u><i>Ans</i></u></b> -> To club two rows we used "rowspan" attribute & club two column we used "colspan" attribute.
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example : Example of rowspan is :-
+
+        <center>
+            <br><br>
+            <table border="1px" cellpadding="10">
+                <caption>Row Span</caption>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Age</th>
+                </tr>
+
+                <tr>
+                    <td>1.</td>
+                    <td>Mihir Kalariya</td>
+                    <td>Rajkot</td>
+                    <td rowspan="2">22</td>
+                </tr>
+
+                <tr>
+                    <td>2.</td>
+                    <td>Hitesh Boricha</td>
+                    <td>Somnath</td>
+                    <!-- <td>22</td> -->
+                </tr>
+                
+            </table>
+        </center>
+        <br><hr><hr>
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example : Example of colspan is :-
+        <center>
+            <table border="1px" cellspacing="29">
+                <caption>Cell Spacing</caption>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>Age</th>
+            </tr>
+
+            <tr>
+                <td>1.</td>
+                <td>Bhagirath Kher</td>
+                <td>Junagadh</td>
+                <td>19</td>
+            </tr>
+            
+            <tr>
+                <td>2.</td>
+                <td>Raj Dodiya</td>
+                <td>Junagadh</td>
+                <td>19</td>
+            </tr>
+
+            <tr>
+                <td style="border: 0px;"></td>
+                <td style="border: 0px;"></td>
+                <td colspan="2">Total 2  </td>
+            </tr>
+        </table>
+    </center>
+        
+    </h3>
+</body>
+
+</html>
