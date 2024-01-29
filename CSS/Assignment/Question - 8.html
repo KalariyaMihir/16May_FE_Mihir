@@ -1,23 +1,24 @@
 <!-- What is the use of the background-position property? -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Question 8</title>
     <style>
-
-        *{
+        * {
             background-color: darkgray;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        
-        .bg{
+
+        .bg {
             height: 500px;
             width: 100%;
+            border: solid black;
         }
-        
-        .bg .image{
+
+        .bg .image {
             height: 500px;
             width: 100%;
             background-image: url('https://res.cloudinary.com/people-matters/image/upload/fl_immutable_cache,w_624,h_351,q_auto,f_auto/v1611723380/1611723379.jpg');
@@ -26,18 +27,29 @@
             font-size: 20px;
         }
 
-        .bg:hover .image{
-            background-position: center;
+        .bg:hover .image {
+            background-position: right;
             background-attachment: fixed;
+        }
+
+        h4{
+            text-align: center;
         }
     </style>
 </head>
+
 <body>
     <h2>Q-8. What is the use of the background-position property?</h2>
-    <h3>Ans : background-position property set the position of image in display from top-bottom or right-left.</h3>
+    <pre>Ans : background-position property set the position of image in display from top-bottom or right-left and center.
+         - Background position works on background image.
+    </pre>
 
     <div class="bg">
-        <div class="image">Hover to See the Effect</div>
+        <div class="image"></div>
+        <h4>
+            Hover the box to See the Example.
+        </h4>
     </div>
 </body>
+
 </html>
