@@ -1,0 +1,52 @@
+<!-- Assessment of JavaScript -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment</title>
+</head>
+
+<body>
+    <script>
+
+        // Function to convert an array to an object with counts
+        function arrayToCountObject(arr) {
+
+            // empty object to store counts
+            const count = {};
+
+            arr.forEach((number) => {
+
+                // If the number is already a key, increment its count
+                if (count[number]) {
+                    count[number]++;
+                }
+
+                else {
+                    // If the number is not a key, add it to the object with count 1
+                    count[number] = 1;
+                }
+            });
+
+            return count;
+        }
+        const numbersArray = [1, 2, 2, 3];
+        const numbersArray1 = [9, 9, 9, 99];
+        const numbersArray2 = [4, 3, 2, 1];
+
+        // Call the function for each test case
+        const result = arrayToCountObject(numbersArray);
+        const result1 = arrayToCountObject(numbersArray1);
+        const result2 = arrayToCountObject(numbersArray2);
+
+        // Log the results to the console for each test case
+        console.log(result);
+        console.log(result1);
+        console.log(result2);
+    </script>
+
+</body>
+
+</html>
