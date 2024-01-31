@@ -1,0 +1,73 @@
+#carouselExampleInterval {
+    overflow: hidden;
+    margin-top: 56px;
+    /* border:  solid red; */
+}
+
+/* #carouselExampleInterval .carousel-item{
+    height: 100%;
+} */
+
+#carouselExampleInterval .carousel-inner img{
+    height: 92.5vh; 
+    width: 100%;
+} 
+
+#services .card{
+    width: 20vw;
+    margin: auto;
+}
+
+#services .card img{
+    height: 50vh;
+    width: 100%;
+
+}
+
+#services .card .card-title, .card-text{   
+    text-align: center;
+}
+
+#team{
+    text-align: center;
+}
+
+@media(max-width:480px)
+{
+    #carouselExampleInterval {
+        margin-top: 56px;
+    }
+
+    #services .card{
+        width: 65vw;
+    }
+
+    #carouselExampleInterval{
+        margin-top: 140px;
+    }
+
+    #carouselExampleInterval .carousel-inner img{
+        height: 65vh; 
+    }
+
+    #contact-us .form-group input{
+        margin-bottom: 30px;
+    }
+
+    #services .card img{
+        height: 50vh;
+        width: 100%;
+    }
+}
+
+@media(min-width:481px) and (max-width : 768px)
+{
+    #services .card{
+        width: 30vw;
+    }
+
+    #services .card img{
+        height: 44vh;
+        width: 100%;
+    }
+}
