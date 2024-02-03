@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(29, 28, 28);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  h1{
+    text-align: center;
+    font-weight: 500;
+    color: white;
+  }
+
+  h3{
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+  }
+
+  .slider-container {
+    height: 500px;
+    width: auto;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 23%;
+
+  }
+  
+  .slider {
+    display: flex;
+    gap: 10px;
+    transition: transform 0.5s ease;
+  }
+
+  .slide {
+    width: auto;
+    height: 200px;
+    filter: brightness(30%);
+  }
+
+  .slider .after {
+    transform: scale(1.2);
+    filter: none;
+    margin: 0 30px;
+  }
+
+  .left,
+  .right {
+    font-size: 30px;
+    z-index: 2;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
